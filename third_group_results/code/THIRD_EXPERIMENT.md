@@ -1,6 +1,6 @@
 # 第三组：FlexKV Main/Indexer host 命中 + encoder SWA bounded replay
 
-第三组模式名为 `bounded_on_flexkv`。新增实验不覆盖已经完成的第一、二组 `host_results/`，也不使用历史 GPU-only 的 `results/` 作为基线。
+第三组模式名为 `bounded_on_flexkv`。新增实验以已完成的第一、二组 `host_results/` 为基线，不覆盖其原始测量数据。
 
 ## 配置
 
@@ -25,7 +25,7 @@
 3. 空闲 scheduler RPC 等待 D2H 完成，调用现有 eviction API 仅驱逐 L1；八个 rank 的 full/SWA evictable/protected 计数均归零。
 4. 恢复 chunk=8192、prefill-max-requests=8，开始计时第二遍；不在两遍之间调用会清空 HiCache L2 的 flush。
 5. 每请求复用 7936 token（`floor((8192-1)/256)*256`），普通尾部 prefill 256 token，额外重放 SWA 128 token。每 batch host=63488、device/storage=0、normal prefill=2048、SWA replay=1024、prefill compute=3072。
-6. 对每个 request ID 校验 FlexKV H2D `slots=7936`、`swa_slots=0`、`mode=no-layerwise` 和成功完成日志。由此排除 GPU-only 命中以及偷用 SWA host snapshot。
+6. 对每个 request ID 校验 FlexKV H2D `slots=7936`、`swa_slots=0`、`mode=no-layerwise` 和成功完成日志。由此确认实际发生 host 回读，且未使用 SWA host snapshot。
 7. 检查首次/重放/跨组三者的输出 token IDs、A–H retrieval 答案、原始 SSE、首 token 到达时间、cache 明细、指标差值、真实 `#new-seq=8` 和零 retraction。
 
 计时从第二遍 HTTP 发送前开始，包含 host lookup、H2D、SWA replay 和普通尾部 prefill；不包含首次填充、等待 D2H、L1 驱逐、metrics 查询和文件写入。
@@ -44,14 +44,16 @@
 
 ```bash
 cd /root/swa_replay_perf
+baseline_directory=/root/swa_replay_perf/host-repro-$(date -u +%Y%m%dT%H%M%SZ)
+bash run_host_reproduction.sh "$baseline_directory"
 bash run_third_experiment.sh \
   /root/swa_replay_perf/third-repro-$(date -u +%Y%m%dT%H%M%SZ) \
-  /root/swa_replay_perf/host_results
+  "$baseline_directory"
 ```
 
 第一个参数为新第三组原始数据目录，第二个为已验证的原两组目录，可选第三个参数为新的三组对比目录，默认在第三组目录名后追加 `-comparison`。三套目录不能相互嵌套，所有输出目录必须不存在；脚本绝不覆盖原始基线。
 
-重新运行全部组时先用 `run_host_reproduction.sh NEW_BASELINE`，再将 `NEW_BASELINE` 作为第二个参数运行本脚本。单独重做分析、不要重启 GPU 服务：
+归档脚本已裁剪无关入口，保存的源码指纹仍属于采样时内容。重新采样时必须先用 `run_host_reproduction.sh NEW_BASELINE` 生成当前脚本的基线，再将 `NEW_BASELINE` 作为第二个参数运行本脚本；不能把新运行与归档基线混用，否则源码指纹检查会失败。单独复核保存的三组数据、不要重启 GPU 服务：
 
 ```bash
 /root/nvfp4-validation/venv/bin/python summarize_three_groups.py \

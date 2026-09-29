@@ -1,7 +1,5 @@
 # HiCache L2 与 FlexKV host 命中对照
 
-本协议替代旧的 GPU-only 对照。旧数据保留在 `results/`，不混入本次统计。
-
 ## 两组定义
 
 共同条件：本地 DeepSeek-V4.1-Flash，8×B200，TP8/EP8，batch=8，8192 输入 token/请求；Main KV、Indexer K 使用 FP4，SWA KV 使用 FP8。每请求输出 2 token，prefill/decode CUDA Graph 均关闭，GPU 最大 FULL tokens=131072，最大并发=8。

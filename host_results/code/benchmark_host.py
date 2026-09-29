@@ -124,7 +124,6 @@ def benchmark_host(arguments):
     arguments.mode = (
         "bounded_on" if arguments.backend == "bounded_on_l2" else "bounded_off"
     )
-    arguments.cache_tier = "host"
     dataset = json.loads(arguments.requests.read_text())
     assert dataset["batch_size"] == 8
     assert all(len(item["input_ids"]) == 8192 for item in dataset["requests"])

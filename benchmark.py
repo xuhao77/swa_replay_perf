@@ -1,15 +1,11 @@
-import argparse
 import csv
 import hashlib
 import json
 import re
-import statistics
 import subprocess
 import time
 from datetime import datetime, timezone
-from pathlib import Path
 
-import requests
 from prometheus_client.parser import text_string_to_metric_families
 
 
@@ -172,8 +168,7 @@ def generate_batch(session, arguments, dataset, trial_directory, stage):
         "stream": True,
     }
     serialized = json.dumps(payload, separators=(",", ":")).encode()
-    if getattr(arguments, "cache_tier", "device") == "host":
-        (trial_directory / f"{stage}.request.json").write_bytes(serialized)
+    (trial_directory / f"{stage}.request.json").write_bytes(serialized)
     before = metrics_snapshot(
         session, base_url, trial_directory / f"{stage}.metrics_before.txt"
     )
@@ -276,137 +271,10 @@ def generate_batch(session, arguments, dataset, trial_directory, stage):
         assert len(result["prefill_log_records"]) == 1, result
         prefill = result["prefill_log_records"][0]
         assert prefill["new-seq"] == 8, result
-        tier = getattr(arguments, "cache_tier", "device")
-        other_tier = "host" if tier == "device" else "device"
-        assert prefill[f"cached-{tier}"] == expected_cached * 8, result
-        assert prefill[f"cached-{other_tier}"] == prefill["cached-storage"] == 0, result
-        if tier == "host":
-            for detail in result["cached_tokens_details"]:
-                assert detail["host"] == expected_cached, result
-                assert detail["device"] == 0, result
+        assert prefill["cached-host"] == expected_cached * 8, result
+        assert prefill["cached-device"] == prefill["cached-storage"] == 0, result
+        for detail in result["cached_tokens_details"]:
+            assert detail["host"] == expected_cached, result
+            assert detail["device"] == 0, result
         assert prefill["replay-token"] == expected_replay, result
     return result
-
-
-def benchmark(arguments):
-    arguments.output.mkdir(parents=True, exist_ok=True)
-    dataset = json.loads(arguments.requests.read_text())
-    assert dataset["batch_size"] == 8, dataset["batch_size"]
-    assert all(len(item["input_ids"]) == 8192 for item in dataset["requests"])
-    result_path = arguments.output / "results.json"
-    if result_path.exists():
-        raise FileExistsError(f"Refusing to overwrite {result_path}")
-    experiment = {
-        "mode": arguments.mode,
-        "started_utc": datetime.now(timezone.utc).isoformat(),
-        "dataset_sha256": hashlib.sha256(arguments.requests.read_bytes()).hexdigest(),
-        "batch_size": 8,
-        "input_tokens_per_request": 8192,
-        "output_tokens_per_request": 2,
-        "warmup_pairs": arguments.warmup_pairs,
-        "measured_pairs": arguments.pairs,
-        "trials": [],
-        "complete": False,
-    }
-    with requests.Session() as session:
-        session.trust_env = False
-        info = checked_server_info(
-            session, arguments.base_url, arguments.mode, arguments.output
-        )
-        arguments.page_size = info["page_size"]
-        experiment["page_size"] = arguments.page_size
-        for trial_index in range(arguments.warmup_pairs + arguments.pairs):
-            measured = trial_index >= arguments.warmup_pairs
-            trial_name = (
-                f"measure_{trial_index - arguments.warmup_pairs:02d}"
-                if measured
-                else f"warmup_{trial_index:02d}"
-            )
-            trial_directory = arguments.output / trial_name
-            trial_directory.mkdir()
-            flush_response = session.post(
-                arguments.base_url + "/flush_cache?timeout=30", timeout=40
-            )
-            (trial_directory / "flush_response.txt").write_text(flush_response.text)
-            flush_response.raise_for_status()
-            cold = generate_batch(session, arguments, dataset, trial_directory, "cold")
-            replay = generate_batch(
-                session, arguments, dataset, trial_directory, "replay"
-            )
-            trial = {
-                "name": trial_name,
-                "measured": measured,
-                "cold": cold,
-                "replay": replay,
-                "cold_replay_output_ids_equal": cold["output_ids"]
-                == replay["output_ids"],
-                "cold_replay_text_equal": cold["output_text"] == replay["output_text"],
-            }
-            experiment["trials"].append(trial)
-            write_json(result_path, experiment)
-            print(
-                f"{arguments.mode} {trial_name}: cold={cold['client_batch_latency_seconds']:.4f}s "
-                f"replay={replay['client_batch_latency_seconds']:.4f}s "
-                f"batch_ttft={replay['client_batch_first_token_seconds']:.4f}s "
-                f"effective_input={replay['logical_input_tokens_per_second']:.1f} token/s "
-                f"cached={replay['cached_tokens']} replay_tokens={replay['replay_tokens_inferred']:.0f} "
-                f"output_equal={trial['cold_replay_output_ids_equal']}",
-                flush=True,
-            )
-        flush_response = session.post(
-            arguments.base_url + "/flush_cache?timeout=30", timeout=40
-        )
-        flush_response.raise_for_status()
-    measured_trials = [trial for trial in experiment["trials"] if trial["measured"]]
-    durations = [
-        trial["replay"]["client_batch_latency_seconds"] for trial in measured_trials
-    ]
-    prefill_durations = [
-        trial["replay"]["client_batch_first_token_seconds"] for trial in measured_trials
-    ]
-    experiment["summary"] = {
-        "measured_pairs": len(durations),
-        "total_replay_seconds": sum(durations),
-        "mean_replay_seconds": statistics.mean(durations),
-        "median_replay_seconds": statistics.median(durations),
-        "aggregate_logical_input_tokens_per_second": len(durations)
-        * 8
-        * 8192
-        / sum(durations),
-        "aggregate_requests_per_second": len(durations) * 8 / sum(durations),
-        "mean_batch_first_token_seconds": statistics.mean(prefill_durations),
-        "aggregate_prefill_logical_input_tokens_per_second": len(durations)
-        * 8
-        * 8192
-        / sum(prefill_durations),
-        "all_cold_replay_output_ids_equal": all(
-            trial["cold_replay_output_ids_equal"] for trial in measured_trials
-        ),
-        "all_semantically_correct": all(
-            all(trial["replay"]["semantic_correct"]) for trial in measured_trials
-        ),
-    }
-    experiment["complete"] = True
-    experiment["completed_utc"] = datetime.now(timezone.utc).isoformat()
-    write_json(result_path, experiment)
-    print(json.dumps(experiment["summary"], indent=2), flush=True)
-
-
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=("bounded_on", "bounded_off"), required=True)
-    parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument(
-        "--requests", type=Path, default=Path(__file__).parent / "requests.json"
-    )
-    parser.add_argument("--base-url", default="http://127.0.0.1:30180")
-    parser.add_argument("--pairs", type=int, default=10)
-    parser.add_argument("--warmup-pairs", type=int, default=3)
-    arguments = parser.parse_args()
-    if arguments.pairs < 1 or arguments.warmup_pairs < 1:
-        parser.error("At least one measured pair and one warmup pair are required")
-    benchmark(arguments)
-
-
-if __name__ == "__main__":
-    main()

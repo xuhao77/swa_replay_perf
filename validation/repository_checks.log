@@ -1,0 +1,19 @@
+Offline repository checks at 2026-09-29T10:04:13.704286+00:00
+Syntax: PASS (47 Python files, 14 shell files)
+Host/L2-only scope and synchronized shared helpers: PASS (1083 retired files absent)
+Retained timing, SSE, metric and pool-audit functions: PASS (unchanged)
+Host request/SSE replay smoke checks: PASS (cold and replay for all three backends match original behavior)
+Launchers and server-manager mode checks: PASS (11 host-mode combinations; retired modes rejected before side effects)
+Original retained measurements, datasets, summaries and audit records: PASS (3517 byte-identical artifacts)
+Full raw-artifact validation: PASS (1248 requests, 60 measured batches)
+Throughput recomputation and report regeneration: PASS (all three stored groups unchanged)
+host_results: SHA-256 PASS (2362 files)
+third_group_results: SHA-256 PASS (1195 files)
+three_group_results: SHA-256 PASS (10 files)
+Cross-report manifest references: PASS
+Archived cross-group source provenance: PASS (using recorded source location; historical fingerprints preserved)
+GPU experiments: NOT RERUN (offline validation on macOS; requires the recorded 8xB200 environment)
+
+Ruff lint: PASS (ruff 0.15.1, ruff check --no-cache .)
+Ruff formatting: PASS (47 files, ruff format --check --no-cache .)
+Diff whitespace: PASS (git diff --check)

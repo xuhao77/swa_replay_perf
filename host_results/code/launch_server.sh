@@ -8,7 +8,7 @@ python_binary=${PYTHON_BINARY:-/root/nvfp4-validation/venv/bin/python}
 sglang_directory=${SGLANG_DIRECTORY:-/root/sglang}
 model_directory=${MODEL_DIRECTORY:-/root/models/DeepSeek-V4.1-Flash}
 
-if [[ "$mode" != bounded_on && "$mode" != bounded_off && "$mode" != bounded_on_l2 && "$mode" != bounded_off_host ]]; then
+if [[ "$mode" != bounded_on_l2 && "$mode" != bounded_off_host ]]; then
     printf 'Invalid mode: %s\n' "$mode" >&2
     exit 2
 fi
@@ -21,13 +21,10 @@ export SGLANG_DSV4_COMPRESSED_KV_LAYOUT=fp4
 export PYTHONUNBUFFERED=1
 export SWA_PERF_POOL_AUDIT_DIRECTORY="$run_directory/pool_audit"
 export SWA_PERF_EXPECT_ENCODER_REPLAY="$mode"
-unset SWA_PERF_HOST_BACKEND SWA_PERF_RUN_DIRECTORY
-if [[ "$mode" == bounded_on_l2 || "$mode" == bounded_off_host ]]; then
-    export SWA_PERF_HOST_BACKEND="$mode"
-    export SWA_PERF_RUN_DIRECTORY="$run_directory"
-    export FLEXKV_ENABLE_LAYERWISE_TRANSFER=0
-    export SGLANG_FLEXKV_SWA_GRID_PAGES=31
-fi
+export SWA_PERF_HOST_BACKEND="$mode"
+export SWA_PERF_RUN_DIRECTORY="$run_directory"
+export FLEXKV_ENABLE_LAYERWISE_TRANSFER=0
+export SGLANG_FLEXKV_SWA_GRID_PAGES=31
 if [[ "$mode" == bounded_on_l2 ]]; then
     export SWA_PERF_EXPECT_ENCODER_REPLAY=bounded_on
 fi
@@ -51,7 +48,7 @@ arguments=(
     --enable-metrics
     --skip-server-warmup
 )
-if [[ "$mode" == bounded_on || "$mode" == bounded_on_l2 ]]; then
+if [[ "$mode" == bounded_on_l2 ]]; then
     arguments+=(--enable-encoder-swa-bounded-replay)
 fi
 if [[ "$mode" == bounded_on_l2 ]]; then

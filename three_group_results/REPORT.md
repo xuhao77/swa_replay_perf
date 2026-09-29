@@ -36,7 +36,7 @@
 
 8192-token 请求需保留 next-token logits 重算 token，并按 256-token page 对齐，因此可复用前缀是 `floor((8192-1)/256)×256=7936`；每请求剩余 256 token 正常计算。“命中”指该可复用前缀需要的缓存类型，不声称 8192/8192 token 全命中。
 
-第三组八个 rank 均审计到四组 packed uint8 Main/Indexer buffers（实际物理 FP4），`enable_cpu=true`、CPU cache 配置 16 GiB、SSD/remote 禁用。`flexkv_swa_pool=false`、`swa=null`、`enable_swa_transfer=false`；逐 request ID 检查 H2D `slots=7936`、`swa_slots=0` 成功完成，再检查 batch 额外 replay=1024，排除 GPU-only 命中和 SWA host 回迁。
+第三组八个 rank 均审计到四组 packed uint8 Main/Indexer buffers（实际物理 FP4），`enable_cpu=true`、CPU cache 配置 16 GiB、SSD/remote 禁用。`flexkv_swa_pool=false`、`swa=null`、`enable_swa_transfer=false`；逐 request ID 检查 H2D `slots=7936`、`swa_slots=0` 成功完成，再检查 batch 额外 replay=1024，确认没有设备缓存命中和 SWA host 回迁。
 
 三组 Main C1/C2 物理布局均为 `v41_fp4`（288 bytes/token），Indexer 为 packed FP4（68 bytes/token），SWA 为 `v41` FP8（528 bytes/token）。ON 的 window 物理容量按页对齐为 256，但实际 SWA replay 为每请求 128 token。通用 dtype 标签不能代替这些物理布局审计。
 
@@ -69,6 +69,6 @@ MPS 在各轮开始前均可用；第三组使用新启动的 MPS 实例，原�
 - 第三组原始数据：`/root/swa_replay_perf/third_group_results`；其中有两轮 `results.json`、原始请求/SSE、8-rank 审计、环境及脚本快照。
 - 本目录 `summary.json`、`trials.csv`、`validation.json` 分别保存聚合结果、60 个有效 batch、跨组三层校验；`source_artifacts.sha256` 引用两套原始 manifest，`artifacts.sha256` 校验本报告及分析代码快照。
 - 新实验入口：`../run_third_experiment.sh NEW_THIRD_DIR BASELINE_DIR NEW_COMPARISON_DIR`；完整协议见 `../THIRD_EXPERIMENT.md`。
-- 原两组各自报告为 `../host_results/REPORT.md`。`../results/` 是 GPU-only 历史结果，pilot 在 `../diagnostics/bounded_on_flexkv_pilot/`，均不进入此次正式统计。
+- 原两组各自报告为 `../host_results/REPORT.md`。pilot 在 `../diagnostics/bounded_on_flexkv_pilot/`，不进入此次正式统计。
 
 数据集 SHA-256：`2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357`。

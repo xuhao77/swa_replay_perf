@@ -40,9 +40,6 @@ Unchanged throughout measurement and matching code snapshot: run_host_experiment
 Refusing to overwrite existing result directory: /root/swa_replay_perf/host_results
 Existing results protected: PASS
 
-=== Original GPU-only artifacts preserved ===
-Historical checksums: PASS
-
 === Final resource cleanup ===
 gpu_uuid, pid, process_name, used_gpu_memory [MiB]
 Filesystem      Size  Used Avail Use% Mounted on

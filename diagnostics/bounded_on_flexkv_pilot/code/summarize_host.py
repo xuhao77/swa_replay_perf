@@ -42,7 +42,7 @@ def make_report(summary):
         )
     return f"""# DeepSeek-V4.1：HiCache L2 / FlexKV host 吞吐对照
 
-生成时间：{summary["generated_utc"]}。本报告仅使用此次重新执行的 **host/L2 命中** 数据，不复用之前 GPU-only 实验的计时。
+生成时间：{summary["generated_utc"]}。本报告仅使用正式 **host/L2 命中** 实验的数据。
 
 ## 1. 结果
 
@@ -125,7 +125,7 @@ FlexKV 的 `SGLANG_FLEXKV_SWA_GRID_PAGES=31` 在冷填充的 7936-token chunk �
 - `code/`、`environment/`、`environment_after/`：脚本快照、SGLang/FlexKV 版本和源码/native 指纹；`artifacts.sha256` 提供完整性校验。
 - 复现：`bash /root/swa_replay_perf/run_host_reproduction.sh /root/swa_replay_perf/host-repro-$(date -u +%Y%m%dT%H%M%SZ)`。该入口先确保共享 MPS 可用，再调用原 ABBA 编排脚本。
 
-旧的 `../results/` 是 GPU-only 历史实验，不参与本报告。开发期失败及独立 pilot 保留在 `../diagnostics/`，不计入上述样本数。
+Host/L2 开发期失败及独立 pilot 保留在 `../diagnostics/`，不计入上述样本数。
 """
 
 

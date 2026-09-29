@@ -160,8 +160,6 @@ def main():
     start.add_argument(
         "mode",
         choices=(
-            "bounded_on",
-            "bounded_off",
             "bounded_on_l2",
             "bounded_off_host",
             "bounded_on_flexkv",

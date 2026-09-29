@@ -159,7 +159,7 @@ def main():
     start = commands.add_parser("start")
     start.add_argument(
         "mode",
-        choices=("bounded_on", "bounded_off", "bounded_on_l2", "bounded_off_host"),
+        choices=("bounded_on_l2", "bounded_off_host"),
     )
     start.add_argument("run_directory", type=Path)
     wait = commands.add_parser("wait")

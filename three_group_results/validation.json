@@ -37,12 +37,12 @@
     "mps_available_before_both_blocks": true
   },
   "baseline_manifest": {
-    "files_verified": 2364,
-    "manifest_sha256": "5085fe095f1a188c699fa8988d33203ef9383b0bab6d713a69efa375de5da687"
+    "files_verified": 2362,
+    "manifest_sha256": "b7523be7826b809d49b4c53cb1b0cdddf9647bda6bcc8a40fd12117dc0cee783"
   },
   "third_manifest": {
-    "files_verified": 1197,
-    "manifest_sha256": "f817ef50d7463b32129d3536e1a571e770629e10bf4a8e49264e89da0448ef2a"
+    "files_verified": 1195,
+    "manifest_sha256": "de739a2e55c56a11a5c421716ac2a8c48739d3e48b5dc38e04c01a1c5279ec78"
   },
   "source_provenance": {
     "third_group_source_hashes_unchanged_during_run": true,
