@@ -1,0 +1,122 @@
+[
+  {
+    "request_id": "bounded_off-measure_08-cold-0",
+    "received_seconds": 0.464710158,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-1",
+    "received_seconds": 0.749031114,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-2",
+    "received_seconds": 1.030300515,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-3",
+    "received_seconds": 1.312000523,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-4",
+    "received_seconds": 1.592942661,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-5",
+    "received_seconds": 1.875676069,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-6",
+    "received_seconds": 2.156015176,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-7",
+    "received_seconds": 2.411205644,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-7",
+    "received_seconds": 2.540095108,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-4",
+    "received_seconds": 2.540138278,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-3",
+    "received_seconds": 2.540156315,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-2",
+    "received_seconds": 2.540170048,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-5",
+    "received_seconds": 2.54018257,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-0",
+    "received_seconds": 2.540194394,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-1",
+    "received_seconds": 2.540206755,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-measure_08-cold-6",
+    "received_seconds": 2.540218847,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  }
+]

@@ -1,0 +1,179 @@
+[2026-09-29 09:18:25] INFO:     127.0.0.1:32908 - "POST /generate HTTP/1.1" 200 OK
+[2026-09-29 09:18:25 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:25 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:25 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:25 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:25 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:25 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:25 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:25 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:25 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:25 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:25 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:25 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:25 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:25 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:25 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:25 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:25 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:25 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:25 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:25 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:25 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:25 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:25 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:25 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:25 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:25 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:25 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:25 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:25 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:25 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:25 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:25 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:25 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:25 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:25 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:25 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:25 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:25 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:25 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:25 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:25 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:25 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:25 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:25 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:25 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:25 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:25 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:25 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:25 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:25 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:25 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:25 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:25 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:25 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:25 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:25 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:25 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:25 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:25 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:25 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:25 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:25 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:25 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_on-measure_03-replay-0" flexkv_task_id=250 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0004s
+[2026-09-29 09:18:25 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_on-measure_03-replay-0" flexkv_task_id=250 mode=no-layerwise slots=7936 swa_slots=0
+[FLEXKV] INFO 09-29 09:18:25.568 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=104 graph_id=348 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=8.99GB/s
+[FLEXKV] INFO 09-29 09:18:25.569 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=250 graph_id=348 task_time=0.0037s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_on-measure_03-replay-0" flexkv_task_id=250 mode=no-layerwise slots=7936 swa_slots=0 load_time=0.0034s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_on-measure_03-replay-1" flexkv_task_id=251 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_on-measure_03-replay-1" flexkv_task_id=251 mode=no-layerwise slots=7936 swa_slots=0
+[FLEXKV] INFO 09-29 09:18:25.574 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=105 graph_id=349 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=9.32GB/s
+[FLEXKV] INFO 09-29 09:18:25.575 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=251 graph_id=349 task_time=0.0035s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_on-measure_03-replay-1" flexkv_task_id=251 mode=no-layerwise slots=7936 swa_slots=0 load_time=0.0030s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_on-measure_03-replay-2" flexkv_task_id=252 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_on-measure_03-replay-2" flexkv_task_id=252 mode=no-layerwise slots=7936 swa_slots=0
+[FLEXKV] INFO 09-29 09:18:25.580 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=106 graph_id=350 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0009s bandwidth=7.91GB/s
+[FLEXKV] INFO 09-29 09:18:25.581 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=252 graph_id=350 task_time=0.0037s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_on-measure_03-replay-2" flexkv_task_id=252 mode=no-layerwise slots=7936 swa_slots=0 load_time=0.0034s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_on-measure_03-replay-3" flexkv_task_id=253 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_on-measure_03-replay-3" flexkv_task_id=253 mode=no-layerwise slots=7936 swa_slots=0
+[FLEXKV] INFO 09-29 09:18:25.586 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=107 graph_id=351 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0007s bandwidth=9.57GB/s
+[FLEXKV] INFO 09-29 09:18:25.587 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=253 graph_id=351 task_time=0.0036s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_on-measure_03-replay-3" flexkv_task_id=253 mode=no-layerwise slots=7936 swa_slots=0 load_time=0.0032s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_on-measure_03-replay-4" flexkv_task_id=254 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_on-measure_03-replay-4" flexkv_task_id=254 mode=no-layerwise slots=7936 swa_slots=0
+[FLEXKV] INFO 09-29 09:18:25.591 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=108 graph_id=352 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=9.30GB/s
+[FLEXKV] INFO 09-29 09:18:25.593 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=254 graph_id=352 task_time=0.0038s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_on-measure_03-replay-4" flexkv_task_id=254 mode=no-layerwise slots=7936 swa_slots=0 load_time=0.0034s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_on-measure_03-replay-5" flexkv_task_id=255 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_on-measure_03-replay-5" flexkv_task_id=255 mode=no-layerwise slots=7936 swa_slots=0
+[FLEXKV] INFO 09-29 09:18:25.597 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=109 graph_id=353 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=9.19GB/s
+[FLEXKV] INFO 09-29 09:18:25.598 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=255 graph_id=353 task_time=0.0036s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_on-measure_03-replay-5" flexkv_task_id=255 mode=no-layerwise slots=7936 swa_slots=0 load_time=0.0032s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_on-measure_03-replay-6" flexkv_task_id=256 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_on-measure_03-replay-6" flexkv_task_id=256 mode=no-layerwise slots=7936 swa_slots=0
+[FLEXKV] INFO 09-29 09:18:25.603 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=110 graph_id=354 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0007s bandwidth=9.52GB/s
+[FLEXKV] INFO 09-29 09:18:25.605 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=256 graph_id=354 task_time=0.0038s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_on-measure_03-replay-6" flexkv_task_id=256 mode=no-layerwise slots=7936 swa_slots=0 load_time=0.0034s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_on-measure_03-replay-7" flexkv_task_id=257 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0004s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_on-measure_03-replay-7" flexkv_task_id=257 mode=no-layerwise slots=7936 swa_slots=0
+[FLEXKV] INFO 09-29 09:18:25.609 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=111 graph_id=355 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=8.39GB/s
+[FLEXKV] INFO 09-29 09:18:25.610 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=257 graph_id=355 task_time=0.0034s
+[2026-09-29 09:18:25 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_on-measure_03-replay-7" flexkv_task_id=257 mode=no-layerwise slots=7936 swa_slots=0 load_time=0.0030s
+[2026-09-29 09:18:27 TP0 EP0] Prefill batch, #new-seq: 8, #new-token: 2048, #cached-token: 63488, #cached-device: 0, #cached-host: 63488, #cached-storage: 0, actual-hit-rate: 0.968750, token usage: 0.52, #running-req: 0, #queue-req: 0, #pending-token: 0, #replay-token: 1024, cuda graph: False, input throughput (token/s): 1593.98
+[2026-09-29 09:18:27 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:27 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:27 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:27 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:27 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:27 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:27 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:27 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:27 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:27 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:27 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:27 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:27 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:27 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:27 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:27 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:27 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:27 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:27 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:27 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:27 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:27 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:27 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:27 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:27 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:27 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-0
+[2026-09-29 09:18:27 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:27 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:27 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:27 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:27 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:27 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:27 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:27 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:27 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-1
+[2026-09-29 09:18:27 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:27 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:27 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:27 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:27 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:27 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:27 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:27 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-2
+[2026-09-29 09:18:27 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:27 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:27 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:27 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:27 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:27 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:27 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:27 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-3
+[2026-09-29 09:18:27 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:27 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:27 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:27 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:27 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:27 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:27 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:27 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-4
+[2026-09-29 09:18:27 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:27 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-5
+[2026-09-29 09:18:27 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:27 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-6
+[2026-09-29 09:18:27 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-measure_03-replay-7
+[2026-09-29 09:18:27 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_on-measure_03-replay-0" flexkv_task_id=258 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 09:18:27 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_on-measure_03-replay-1" flexkv_task_id=259 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 09:18:27 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_on-measure_03-replay-2" flexkv_task_id=260 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 09:18:27 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_on-measure_03-replay-3" flexkv_task_id=261 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 09:18:27 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_on-measure_03-replay-4" flexkv_task_id=262 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 09:18:27 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_on-measure_03-replay-5" flexkv_task_id=263 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 09:18:27 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_on-measure_03-replay-6" flexkv_task_id=264 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 09:18:27 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_on-measure_03-replay-7" flexkv_task_id=265 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 09:18:27] INFO:     127.0.0.1:32908 - "GET /metrics HTTP/1.1" 200 OK

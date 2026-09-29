@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/root/swa_replay_perf/benchmark_host.py", line 259, in <module>
+    main()
+  File "/root/swa_replay_perf/benchmark_host.py", line 255, in main
+    benchmark_host(parser.parse_args())
+  File "/root/swa_replay_perf/benchmark_host.py", line 144, in benchmark_host
+    check_host_configuration(configuration, arguments)
+  File "/root/swa_replay_perf/benchmark_host.py", line 94, in check_host_configuration
+    assert any("c1" in name and "indexer" not in name for name in names), names
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: set()

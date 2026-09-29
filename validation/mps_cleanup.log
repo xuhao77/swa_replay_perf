@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-09-29T08:50:23.097112+00:00",
+  "pilot_owned_control_pid": 59914,
+  "control_started_utc": "2026-09-29T08:25:59.640000+00:00",
+  "server_pids": [
+    "59989"
+  ],
+  "active_clients": ""
+}
+No active MPS clients; shutting down the daemon started by the FlexKV pilot.
+MPS cleanup: PASS

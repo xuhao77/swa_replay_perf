@@ -1,0 +1,200 @@
+[2026-09-29 09:14:30] INFO:     127.0.0.1:35970 - "POST /generate HTTP/1.1" 200 OK
+[2026-09-29 09:14:30 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:30 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:30 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:30 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:30 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:30 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:30 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:30 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:30 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:30 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:30 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:30 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:30 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:30 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:30 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:30 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:30 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:30 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:30 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:30 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:30 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:30 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:30 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:30 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:30 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:30 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:30 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:30 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:30 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:30 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:30 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:30 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:30 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:30 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:30 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:30 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:30 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:30 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:30 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:30 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:30 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:30 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:30 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:30 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:30 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:30 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:30 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:30 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:30 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:30 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:30 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:30 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:30 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:30 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:30 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:30 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:30 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:30 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:30 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:30 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:30 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:30 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:30 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:30 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-0" flexkv_task_id=38 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:30 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:31 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-1" flexkv_task_id=39 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:31 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.06, #running-req: 0, #queue-req: 7, #pending-token: 57600, cuda graph: False, input throughput (token/s): 10164.60
+[2026-09-29 09:14:31 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-1" flexkv_task_id=40 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:31 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.12, #running-req: 0, #queue-req: 6, #pending-token: 57344, cuda graph: False, input throughput (token/s): 1415.46
+[2026-09-29 09:14:31 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-2" flexkv_task_id=41 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:31 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.12, #running-req: 1, #queue-req: 6, #pending-token: 49408, cuda graph: False, input throughput (token/s): 48806.46
+[2026-09-29 09:14:31 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-2" flexkv_task_id=42 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:31 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.19, #running-req: 1, #queue-req: 5, #pending-token: 49152, cuda graph: False, input throughput (token/s): 1419.62
+[2026-09-29 09:14:31 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-3" flexkv_task_id=43 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:32 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.19, #running-req: 2, #queue-req: 5, #pending-token: 41216, cuda graph: False, input throughput (token/s): 48842.79
+[2026-09-29 09:14:32 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-3" flexkv_task_id=44 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:32 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.25, #running-req: 2, #queue-req: 4, #pending-token: 40960, cuda graph: False, input throughput (token/s): 1420.66
+[2026-09-29 09:14:32 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-4" flexkv_task_id=45 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:32 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.25, #running-req: 3, #queue-req: 4, #pending-token: 33024, cuda graph: False, input throughput (token/s): 48913.44
+[2026-09-29 09:14:32 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-4" flexkv_task_id=46 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:32 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.31, #running-req: 3, #queue-req: 3, #pending-token: 32768, cuda graph: False, input throughput (token/s): 1418.99
+[2026-09-29 09:14:32 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-5" flexkv_task_id=47 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:32 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.31, #running-req: 4, #queue-req: 3, #pending-token: 24832, cuda graph: False, input throughput (token/s): 48695.56
+[2026-09-29 09:14:32 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-5" flexkv_task_id=48 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:32 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.37, #running-req: 4, #queue-req: 2, #pending-token: 24576, cuda graph: False, input throughput (token/s): 1423.75
+[2026-09-29 09:14:32 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-6" flexkv_task_id=49 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:33 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.38, #running-req: 5, #queue-req: 2, #pending-token: 16640, cuda graph: False, input throughput (token/s): 48979.50
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-6" flexkv_task_id=50 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:33 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.44, #running-req: 5, #queue-req: 1, #pending-token: 16384, cuda graph: False, input throughput (token/s): 1404.01
+[2026-09-29 09:14:33 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.44, #running-req: 6, #queue-req: 1, #pending-token: 8448, cuda graph: False, input throughput (token/s): 49119.13
+[2026-09-29 09:14:33 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.45, #running-req: 6, #queue-req: 1, #pending-token: 8192, cuda graph: False, input throughput (token/s): 1641.33
+[2026-09-29 09:14:33 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:33 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:33 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:33 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:33 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:33 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:33 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:33 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:33 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:33 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:33 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:33 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:33 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:33 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:33 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:33 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:33 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:33 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:33 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:33 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:33 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:33 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:33 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-0
+[2026-09-29 09:14:33 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:33 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:33 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:33 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:33 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:33 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:33 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:33 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:33 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:33 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:33 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-1
+[2026-09-29 09:14:33 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:33 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:33 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:33 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:33 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:33 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:33 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:33 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:33 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-2
+[2026-09-29 09:14:33 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:33 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:33 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:33 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:33 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:33 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:33 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:33 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-3
+[2026-09-29 09:14:33 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:33 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-4
+[2026-09-29 09:14:33 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-6
+[2026-09-29 09:14:33 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-5
+[2026-09-29 09:14:33 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-6
+[FLEXKV] INFO 09-29 09:14:33.692 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=51, op_id=16, graph_id=78, dp_client_id=0, fragment12_num_blocks=32, fragment2_num_blocks=0, gpu_src: count=32, min=0, max=0, dtype=int64, cpu_dst: count=32, min=256, max=287, dtype=int64
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_on-warmup_01-cold-0" flexkv_task_id=51 mode=no-layerwise tokens=8192 slots=8192 swa_slots=0
+[FLEXKV] INFO 09-29 09:14:33.694 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=52, op_id=17, graph_id=79, dp_client_id=0, fragment12_num_blocks=32, fragment2_num_blocks=0, gpu_src: count=32, min=0, max=0, dtype=int64, cpu_dst: count=32, min=288, max=319, dtype=int64
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_on-warmup_01-cold-1" flexkv_task_id=52 mode=no-layerwise tokens=8192 slots=8192 swa_slots=0
+[FLEXKV] INFO 09-29 09:14:33.695 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=53, op_id=18, graph_id=80, dp_client_id=0, fragment12_num_blocks=32, fragment2_num_blocks=0, gpu_src: count=32, min=0, max=0, dtype=int64, cpu_dst: count=32, min=320, max=351, dtype=int64
+[FLEXKV] INFO 09-29 09:14:33.695 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=32 op_id=16 graph_id=78 mode=no-layerwise data_size=0.00679016GB transfer_time=0.0006s bandwidth=11.26GB/s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_on-warmup_01-cold-2" flexkv_task_id=53 mode=no-layerwise tokens=8192 slots=8192 swa_slots=0
+[FLEXKV] INFO 09-29 09:14:33.695 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=32 op_id=17 graph_id=79 mode=no-layerwise data_size=0.00679016GB transfer_time=0.0005s bandwidth=13.72GB/s
+[FLEXKV] INFO 09-29 09:14:33.696 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=51 graph_id=78 task_time=0.0031s
+[FLEXKV] INFO 09-29 09:14:33.696 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=54, op_id=19, graph_id=81, dp_client_id=0, fragment12_num_blocks=32, fragment2_num_blocks=0, gpu_src: count=32, min=0, max=0, dtype=int64, cpu_dst: count=32, min=352, max=383, dtype=int64
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_on-warmup_01-cold-3" flexkv_task_id=54 mode=no-layerwise tokens=8192 slots=8192 swa_slots=0
+[FLEXKV] INFO 09-29 09:14:33.697 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=55, op_id=20, graph_id=82, dp_client_id=0, fragment12_num_blocks=32, fragment2_num_blocks=0, gpu_src: count=32, min=0, max=0, dtype=int64, cpu_dst: count=32, min=384, max=415, dtype=int64
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_on-warmup_01-cold-4" flexkv_task_id=55 mode=no-layerwise tokens=8192 slots=8192 swa_slots=0
+[FLEXKV] INFO 09-29 09:14:33.697 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=32 op_id=18 graph_id=80 mode=no-layerwise data_size=0.00679016GB transfer_time=0.0008s bandwidth=9.10GB/s
+[FLEXKV] INFO 09-29 09:14:33.698 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=52 graph_id=79 task_time=0.0042s
+[FLEXKV] INFO 09-29 09:14:33.698 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=56, op_id=21, graph_id=83, dp_client_id=0, fragment12_num_blocks=32, fragment2_num_blocks=0, gpu_src: count=32, min=0, max=0, dtype=int64, cpu_dst: count=32, min=416, max=447, dtype=int64
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_on-warmup_01-cold-5" flexkv_task_id=56 mode=no-layerwise tokens=8192 slots=8192 swa_slots=0
+[FLEXKV] INFO 09-29 09:14:33.699 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=57, op_id=22, graph_id=84, dp_client_id=0, fragment12_num_blocks=32, fragment2_num_blocks=0, gpu_src: count=32, min=0, max=0, dtype=int64, cpu_dst: count=32, min=448, max=479, dtype=int64
+[FLEXKV] INFO 09-29 09:14:33.699 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=32 op_id=19 graph_id=81 mode=no-layerwise data_size=0.00679016GB transfer_time=0.0008s bandwidth=9.61GB/s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_on-warmup_01-cold-6" flexkv_task_id=57 mode=no-layerwise tokens=8192 slots=8192 swa_slots=0
+[FLEXKV] INFO 09-29 09:14:33.700 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=32 op_id=20 graph_id=82 mode=no-layerwise data_size=0.00679016GB transfer_time=0.0007s bandwidth=11.04GB/s
+[FLEXKV] INFO 09-29 09:14:33.701 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=32 op_id=21 graph_id=83 mode=no-layerwise data_size=0.00679016GB transfer_time=0.0007s bandwidth=9.85GB/s
+[FLEXKV] INFO 09-29 09:14:33.702 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=32 op_id=22 graph_id=84 mode=no-layerwise data_size=0.00679016GB transfer_time=0.0008s bandwidth=9.70GB/s
+[FLEXKV] INFO 09-29 09:14:33.706 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=53 graph_id=80 task_time=0.0108s
+[FLEXKV] INFO 09-29 09:14:33.706 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=54 graph_id=81 task_time=0.0098s
+[FLEXKV] INFO 09-29 09:14:33.706 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=55 graph_id=82 task_time=0.0088s
+[FLEXKV] INFO 09-29 09:14:33.706 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=56 graph_id=83 task_time=0.0077s
+[FLEXKV] INFO 09-29 09:14:33.706 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=57 graph_id=84 task_time=0.0067s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_on-warmup_01-cold-0" flexkv_task_id=51 mode=no-layerwise store_time=0.0141s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_on-warmup_01-cold-1" flexkv_task_id=52 mode=no-layerwise store_time=0.0131s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_on-warmup_01-cold-2" flexkv_task_id=53 mode=no-layerwise store_time=0.0120s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_on-warmup_01-cold-3" flexkv_task_id=54 mode=no-layerwise store_time=0.0110s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_on-warmup_01-cold-4" flexkv_task_id=55 mode=no-layerwise store_time=0.0098s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_on-warmup_01-cold-5" flexkv_task_id=56 mode=no-layerwise store_time=0.0088s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_on-warmup_01-cold-6" flexkv_task_id=57 mode=no-layerwise store_time=0.0076s
+[2026-09-29 09:14:33 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_on-warmup_01-cold-7" flexkv_task_id=58 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[2026-09-29 09:14:34 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.06, #running-req: 0, #queue-req: 0, #pending-token: 256, cuda graph: False, input throughput (token/s): 15599.86
+[2026-09-29 09:14:34 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, token usage: 0.06, #running-req: 0, #queue-req: 0, #pending-token: 0, cuda graph: False, input throughput (token/s): 1694.24
+[2026-09-29 09:14:34 TP2 EP2] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:34 TP1 EP1] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:34 TP5 EP5] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:34 TP0 EP0] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:34 TP6 EP6] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:34 TP4 EP4] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:34 TP3 EP3] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-7
+[2026-09-29 09:14:34 TP7 EP7] [FlexKV] store prefix length aligned from 8194 to 8192 tokens for rid=bounded_on-warmup_01-cold-7
+[FLEXKV] INFO 09-29 09:14:34.349 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=59, op_id=23, graph_id=87, dp_client_id=0, fragment12_num_blocks=32, fragment2_num_blocks=0, gpu_src: count=32, min=0, max=0, dtype=int64, cpu_dst: count=32, min=480, max=511, dtype=int64
+[2026-09-29 09:14:34 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_on-warmup_01-cold-7" flexkv_task_id=59 mode=no-layerwise tokens=8192 slots=8192 swa_slots=0
+[FLEXKV] INFO 09-29 09:14:34.351 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=32 op_id=23 graph_id=87 mode=no-layerwise data_size=0.00679016GB transfer_time=0.0008s bandwidth=9.63GB/s
+[FLEXKV] INFO 09-29 09:14:34.354 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=59 graph_id=87 task_time=0.0048s
+[2026-09-29 09:14:34 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_on-warmup_01-cold-7" flexkv_task_id=59 mode=no-layerwise store_time=0.0056s
+[2026-09-29 09:14:34] INFO:     127.0.0.1:35970 - "GET /metrics HTTP/1.1" 200 OK

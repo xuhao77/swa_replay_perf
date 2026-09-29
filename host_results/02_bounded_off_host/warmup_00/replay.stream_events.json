@@ -1,0 +1,122 @@
+[
+  {
+    "request_id": "bounded_off-warmup_00-replay-1",
+    "received_seconds": 0.365553776,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-7",
+    "received_seconds": 0.365598095,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-0",
+    "received_seconds": 0.36561332,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-3",
+    "received_seconds": 0.36562406,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-5",
+    "received_seconds": 0.365635603,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-2",
+    "received_seconds": 0.365646391,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-6",
+    "received_seconds": 0.365656761,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-4",
+    "received_seconds": 0.365665759,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-4",
+    "received_seconds": 0.497973154,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-0",
+    "received_seconds": 0.498017798,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-2",
+    "received_seconds": 0.498036899,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-1",
+    "received_seconds": 0.498051611,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-3",
+    "received_seconds": 0.49806375,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-6",
+    "received_seconds": 0.498076908,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-7",
+    "received_seconds": 0.498088984,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_00-replay-5",
+    "received_seconds": 0.498100646,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  }
+]

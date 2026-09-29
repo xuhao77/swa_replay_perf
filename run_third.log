@@ -1,0 +1,194 @@
+Using an existing MPS daemon.
+Saved environment and source fingerprints to /root/swa_replay_perf/third_group_results/environment
+{"pid": 88043, "create_time": 1790673140.68, "mode": "bounded_on_flexkv", "run_directory": "/root/swa_replay_perf/third_group_results/01_bounded_on_flexkv", "base_url": "http://127.0.0.1:30180"}
+Server is ready; configuration saved to /root/swa_replay_perf/third_group_results/01_bounded_on_flexkv/server_info.json
+bounded_on_flexkv warmup_00: first_token=1.626960s complete=1.781554s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv warmup_01: first_token=1.608202s complete=1.762216s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv warmup_02: first_token=1.606144s complete=1.759416s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_00: first_token=1.604271s complete=1.758236s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_01: first_token=1.606338s complete=1.762043s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_02: first_token=1.602475s complete=1.755569s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_03: first_token=1.607950s complete=1.761266s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_04: first_token=1.604812s complete=1.759301s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_05: first_token=1.604998s complete=1.758401s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_06: first_token=1.611589s complete=1.765679s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_07: first_token=1.601476s complete=1.754282s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_08: first_token=1.676651s complete=1.831113s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_09: first_token=1.605754s complete=1.759902s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+{
+  "measured_pairs": 10,
+  "mean_replay_seconds": 1.7665791449000001,
+  "mean_batch_first_token_seconds": 1.6126314692,
+  "aggregate_logical_input_tokens_per_second": 37097.686899111315,
+  "aggregate_prefill_logical_input_tokens_per_second": 40639.16725655325
+}
+Stopped the experiment server and its workers.
+{"pid": 92511, "create_time": 1790673348.58, "mode": "bounded_on_flexkv", "run_directory": "/root/swa_replay_perf/third_group_results/02_bounded_on_flexkv", "base_url": "http://127.0.0.1:30180"}
+Server is ready; configuration saved to /root/swa_replay_perf/third_group_results/02_bounded_on_flexkv/server_info.json
+bounded_on_flexkv warmup_00: first_token=1.645264s complete=1.801277s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv warmup_01: first_token=1.625898s complete=1.781721s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv warmup_02: first_token=1.626599s complete=1.782820s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_00: first_token=1.627900s complete=1.784759s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_01: first_token=1.624082s complete=1.780388s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_02: first_token=1.624624s complete=1.781208s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_03: first_token=1.620382s complete=1.776621s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_04: first_token=1.624077s complete=1.780493s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_05: first_token=1.624424s complete=1.780149s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_06: first_token=1.625660s complete=1.781289s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_07: first_token=1.625477s complete=1.781084s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_08: first_token=1.630874s complete=1.787188s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_09: first_token=1.614750s complete=1.770862s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+{
+  "measured_pairs": 10,
+  "mean_replay_seconds": 1.7804041072999999,
+  "mean_batch_first_token_seconds": 1.6242249556000001,
+  "aggregate_logical_input_tokens_per_second": 36809.620766032705,
+  "aggregate_prefill_logical_input_tokens_per_second": 40349.09066878026
+}
+Stopped the experiment server and its workers.
+Saved environment and source fingerprints to /root/swa_replay_perf/third_group_results/environment_after
+{
+  "passed": true,
+  "protocol": "host_l2_v1",
+  "server_blocks": 4,
+  "stages_including_warmup": 104,
+  "requests_including_cold_and_warmup": 832,
+  "measured_replay_batches": 40,
+  "measured_batches_per_backend": {
+    "bounded_on_l2": 20,
+    "bounded_off_host": 20
+  },
+  "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+  "all_device_hits_zero": true,
+  "host_hits_per_replay_request": 7936,
+  "all_cold_replay_and_cross_backend_output_ids_equal": true,
+  "paged_swa_capacity_not_enlarged": true,
+  "mps_available_before_all_four_blocks": true
+}
+{
+  "passed": true,
+  "protocol": "host_l2_v1",
+  "server_blocks": 2,
+  "stages_including_warmup": 52,
+  "requests_including_cold_and_warmup": 416,
+  "measured_replay_batches": 20,
+  "measured_batches_per_backend": {
+    "bounded_on_flexkv": 20
+  },
+  "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+  "all_device_hits_zero": true,
+  "host_hits_per_replay_request": 7936,
+  "all_cold_replay_and_cross_backend_output_ids_equal": true,
+  "paged_swa_capacity_not_enlarged": true,
+  "mps_available_before_both_blocks": true
+}
+{
+  "groups": {
+    "bounded_on_l2": {
+      "samples": 20,
+      "total_seconds": 34.796726874,
+      "mean_batch_seconds": 1.7398363437,
+      "median_batch_seconds": 1.741629445,
+      "p95_batch_seconds": 1.74613094725,
+      "min_batch_seconds": 1.727338854,
+      "max_batch_seconds": 1.746487753,
+      "stdev_batch_seconds": 0.0060243671057807514,
+      "aggregate_logical_input_tokens_per_second": 37667.91068442031,
+      "aggregate_requests_per_second": 4.598133628469276,
+      "aggregate_output_tokens_per_second": 9.196267256938553,
+      "mean_batch_first_token_seconds": 1.5825307471999999,
+      "median_batch_first_token_seconds": 1.584361303,
+      "p95_batch_first_token_seconds": 1.58883899765,
+      "aggregate_prefill_logical_input_tokens_per_second": 41412.149568628614,
+      "aggregate_prefill_requests_per_second": 5.055194039139235,
+      "mean_server_first_token_seconds": 1.5790035844312797,
+      "cached_tokens_per_request": [
+        7936
+      ],
+      "replay_tokens_per_batch": [
+        1024.0
+      ],
+      "all_cold_cache_zero": true,
+      "all_cold_replay_output_ids_equal": true,
+      "all_semantically_correct": true
+    },
+    "bounded_off_host": {
+      "samples": 20,
+      "total_seconds": 9.521291097,
+      "mean_batch_seconds": 0.47606455485,
+      "median_batch_seconds": 0.47578999450000004,
+      "p95_batch_seconds": 0.48051670579999994,
+      "min_batch_seconds": 0.471465226,
+      "max_batch_seconds": 0.482550101,
+      "stdev_batch_seconds": 0.0028934112585252444,
+      "aggregate_logical_input_tokens_per_second": 137662.00262619698,
+      "aggregate_requests_per_second": 16.804443679955686,
+      "aggregate_output_tokens_per_second": 33.60888735991137,
+      "mean_batch_first_token_seconds": 0.342952471,
+      "median_batch_first_token_seconds": 0.3425258485,
+      "p95_batch_first_token_seconds": 0.346780403,
+      "aggregate_prefill_logical_input_tokens_per_second": 191093.53494058948,
+      "aggregate_prefill_requests_per_second": 23.326847526927427,
+      "mean_server_first_token_seconds": 0.33948288711256963,
+      "cached_tokens_per_request": [
+        7936
+      ],
+      "replay_tokens_per_batch": [
+        0.0
+      ],
+      "all_cold_cache_zero": true,
+      "all_cold_replay_output_ids_equal": true,
+      "all_semantically_correct": true
+    },
+    "bounded_on_flexkv": {
+      "samples": 20,
+      "total_seconds": 35.469832522,
+      "mean_batch_seconds": 1.7734916261,
+      "median_batch_seconds": 1.7737412935,
+      "p95_batch_seconds": 1.78938442535,
+      "min_batch_seconds": 1.754282424,
+      "max_batch_seconds": 1.831112593,
+      "stdev_batch_seconds": 0.017544895443361807,
+      "aggregate_logical_input_tokens_per_second": 36953.0924395268,
+      "aggregate_requests_per_second": 4.510875541934424,
+      "aggregate_output_tokens_per_second": 9.021751083868848,
+      "mean_batch_first_token_seconds": 1.6184282124,
+      "median_batch_first_token_seconds": 1.6175659985,
+      "p95_batch_first_token_seconds": 1.6331627930000001,
+      "aggregate_prefill_logical_input_tokens_per_second": 40493.60947731833,
+      "aggregate_prefill_requests_per_second": 4.94306756314921,
+      "mean_server_first_token_seconds": 1.6150387688249452,
+      "cached_tokens_per_request": [
+        7936
+      ],
+      "replay_tokens_per_batch": [
+        1024.0
+      ],
+      "all_cold_cache_zero": true,
+      "all_cold_replay_output_ids_equal": true,
+      "all_semantically_correct": true
+    }
+  },
+  "ratios": {
+    "group3_vs_group1": {
+      "first_token_throughput_ratio": 0.9778195505213253,
+      "complete_throughput_ratio": 0.981023151220618,
+      "first_token_change_percent": -2.21804494786747,
+      "complete_change_percent": -1.8976848779381994
+    },
+    "group2_vs_group3": {
+      "first_token_throughput_ratio": 4.719103517991565,
+      "complete_throughput_ratio": 3.7253175184588097,
+      "first_token_change_percent": 371.9103517991565,
+      "complete_change_percent": 272.531751845881
+    },
+    "group2_vs_group1": {
+      "first_token_throughput_ratio": 4.614431680826117,
+      "complete_throughput_ratio": 3.654622731255834,
+      "first_token_change_percent": 361.4431680826117,
+      "complete_change_percent": 265.4622731255834
+    }
+  }
+}
+Saved verified three-group comparison to /root/swa_replay_perf/three_group_results
+Experiment servers stopped; leave any shared MPS daemon to its owner.

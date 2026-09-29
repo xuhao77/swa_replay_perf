@@ -1,0 +1,11 @@
+..........................................                               [100%]
+=============================== warnings summary ===============================
+registered/kernels/ops/attention/test_flashmla_sched_meta.py: 14 warnings
+  /root/nvfp4-validation/venv/lib/python3.12/site-packages/torch/jit/_script.py:365: DeprecationWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+registered/kernels/ops/attention/test_flashmla_sched_meta.py::test_precompute_falls_back_above_shared_memory_limit[128]
+  <frozen abc>:106: DeprecationWarning: MultiPlatformOp is deprecated; subclass sglang.kernels.fused_op.BaseFusedOp instead (RFC #29630).
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+42 passed, 15 warnings in 8.70s

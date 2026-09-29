@@ -1,0 +1,122 @@
+[
+  {
+    "request_id": "bounded_on-warmup_02-cold-0",
+    "received_seconds": 0.583778317,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-1",
+    "received_seconds": 0.935831173,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-2",
+    "received_seconds": 1.285601152,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-3",
+    "received_seconds": 1.635336712,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-4",
+    "received_seconds": 1.985137735,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-5",
+    "received_seconds": 2.335195348,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-6",
+    "received_seconds": 2.660728365,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-6",
+    "received_seconds": 2.818654751,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-5",
+    "received_seconds": 2.818695462,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-4",
+    "received_seconds": 2.818713272,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-3",
+    "received_seconds": 2.818727127,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-2",
+    "received_seconds": 2.818740652,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-1",
+    "received_seconds": 2.818753453,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-0",
+    "received_seconds": 2.818766743,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-7",
+    "received_seconds": 3.329784773,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_on-warmup_02-cold-7",
+    "received_seconds": 3.485923102,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "original_baseline_artifacts_unchanged": true,
+  "baseline": {
+    "passed": true,
+    "protocol": "host_l2_v1",
+    "server_blocks": 4,
+    "stages_including_warmup": 104,
+    "requests_including_cold_and_warmup": 832,
+    "measured_replay_batches": 40,
+    "measured_batches_per_backend": {
+      "bounded_on_l2": 20,
+      "bounded_off_host": 20
+    },
+    "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+    "all_device_hits_zero": true,
+    "host_hits_per_replay_request": 7936,
+    "all_cold_replay_and_cross_backend_output_ids_equal": true,
+    "paged_swa_capacity_not_enlarged": true,
+    "mps_available_before_all_four_blocks": true
+  },
+  "third": {
+    "passed": true,
+    "protocol": "host_l2_v1",
+    "server_blocks": 2,
+    "stages_including_warmup": 52,
+    "requests_including_cold_and_warmup": 416,
+    "measured_replay_batches": 20,
+    "measured_batches_per_backend": {
+      "bounded_on_flexkv": 20
+    },
+    "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+    "all_device_hits_zero": true,
+    "host_hits_per_replay_request": 7936,
+    "all_cold_replay_and_cross_backend_output_ids_equal": true,
+    "paged_swa_capacity_not_enlarged": true,
+    "mps_available_before_both_blocks": true
+  },
+  "baseline_manifest": {
+    "files_verified": 2364,
+    "manifest_sha256": "5085fe095f1a188c699fa8988d33203ef9383b0bab6d713a69efa375de5da687"
+  },
+  "third_manifest": {
+    "files_verified": 1197,
+    "manifest_sha256": "f817ef50d7463b32129d3536e1a571e770629e10bf4a8e49264e89da0448ef2a"
+  },
+  "source_provenance": {
+    "third_group_source_hashes_unchanged_during_run": true,
+    "common_model_kernel_and_timing_source_hashes_equal": true,
+    "matched_source_sha256": {
+      "/root/sglang/python/sglang/srt/model_executor/encoder_swa_replay.py": "17c9b5f610ff354a849d11b0da10d857d8ad6a1659143a728d98c9c6fc19cdce",
+      "/root/sglang/python/sglang/srt/mem_cache/deepseek_v4_memory_pool.py": "ca7c1522faacd08343915b10e2352e8d47f9de9160ea576dd4aa4067bf009d1a",
+      "/root/sglang/python/sglang/srt/mem_cache/dsv41_request_window.py": "ffff69baa10d3a5452c9eb7a3f6a27f86890befad5995b3ac48561420780a3a5",
+      "/root/sglang/python/sglang/srt/layers/attention/deepseek_v4_backend.py": "d5e925276ecbc2a8baf055ae82525abba0779a515383fff96788efbc7232aeaa",
+      "/root/sglang/python/sglang/srt/managers/schedule_batch.py": "b1e613b646818000b1adb706a00af67f9920ad49478e1c72af7b8cfd34b98ffa",
+      "/root/sglang/python/sglang/srt/managers/schedule_policy.py": "238584775a8a72c8e4c5ec9329d63fe61df248e6d962682562325a6138e1c803",
+      "/root/sglang/python/sglang/srt/arg_groups/deepseek_v4_hook.py": "3257b4795e808f0ccec054dc73d2f3de375bb128c18bdebae732143aabb16ca3",
+      "/root/sglang/python/sglang/kernels/ops/attention/dsv4/kv_layout.py": "09dacf5dddc743ebcd151cb1c12f9b3150a01b8d4ba8885830827c474467fdce",
+      "/root/models/DeepSeek-V4.1-Flash/config.json": "8be45ce0476004a3f529fd896115a4a2e800a129ad2d3ec05b16050f52e21879",
+      "/root/models/DeepSeek-V4.1-Flash/tokenizer.json": "c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b",
+      "/root/sglang/python/sglang/srt/mem_cache/unified_radix_cache.py": "680c6b8995d5453c4866e339fde0bccd3f7aab263fc1320827ac4b3c9d95bd33",
+      "/root/sglang/python/sglang/srt/mem_cache/hybrid_cache/hybrid_pool_assembler.py": "a25409fd5319dd6703373a4efc466e2926e9661fc5dbfc669409875a309f717e",
+      "/root/sglang/python/sglang/srt/mem_cache/storage/flexkv/flexkv_hybrid_radix_cache.py": "c4f944f5ef68cfd570ba20dd4ac7da496a8cbcea4c58f20d7469734e87c89929",
+      "/root/FlexKV/flexkv/integration/sglang/connector.py": "99dd5541e381c7ffb697b1b23050dd86cfa1dd00f50336a5edd6b85816987e61",
+      "/root/swa_replay_perf/server_entry.py": "6edafecfa97b331e5123cb2a3f15f96668eaa5ad001f8d902a9373197be8f4c8",
+      "/root/swa_replay_perf/host_control.py": "5de469a223b6947767c90fd84a0edabdfc0e00488c5d524dd605883421659eec",
+      "/root/swa_replay_perf/benchmark.py": "7dd6190806ba2f12f110e29e155066ac5131af4ee1b5071ba81ef1dc370e1f95",
+      "/root/swa_replay_perf/flexkv_host.yaml": "7ad4954d8242cec250bc223ec54f3208c206f34fa5b302318384f919d836f24e",
+      "/root/nvfp4-validation/venv/lib/python3.12/site-packages/sgl_kernel/flash_mla.py": "5965a70bd3e103614925bb99524f673f7a6ae2eb064b621507c2ca7ed6b8f89d",
+      "/root/nvfp4-validation/venv/lib/python3.12/site-packages/sgl_kernel/flashmla_ops.abi3.so": "b2db7b61e0e680ddfed134c5cb7b2919fa15835d27b4e44e7f959c30de9a7ea1",
+      "/root/.cache/sglang/.cache/flashinfer/0.6.18/100a/cached_ops/fused_moe_trtllm_sm100/fused_moe_trtllm_sm100.so": "bf473f7452ae80b99caddbef7e9bca287058b6e3d34f15f03e3e5ef20a316259"
+    },
+    "extended_or_updated_helpers": [
+      "/root/swa_replay_perf/collect_environment.py",
+      "/root/swa_replay_perf/summarize_host.py",
+      "/root/swa_replay_perf/manage_server.py",
+      "/root/swa_replay_perf/validate_host_artifacts.py",
+      "/root/swa_replay_perf/benchmark_host.py",
+      "/root/swa_replay_perf/launch_server.sh"
+    ]
+  },
+  "all_three_groups_output_ids_equal": true,
+  "measured_replay_batches": 60,
+  "requests_including_cold_and_warmup": 1248
+}

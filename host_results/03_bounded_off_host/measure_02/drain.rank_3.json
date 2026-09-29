@@ -1,0 +1,27 @@
+{
+  "action": "drain",
+  "tp_rank": 3,
+  "backend": "bounded_off_host",
+  "device_before": {
+    "full_evictable": 65536,
+    "full_protected": 0,
+    "swa_evictable": 4096,
+    "swa_protected": 0,
+    "available_size": 30976,
+    "full_available_size": 65536,
+    "swa_available_size": 30976
+  },
+  "host_before": {},
+  "device_after": {
+    "full_evictable": 65536,
+    "full_protected": 0,
+    "swa_evictable": 4096,
+    "swa_protected": 0,
+    "available_size": 30976,
+    "full_available_size": 65536,
+    "swa_available_size": 30976
+  },
+  "host_after": {},
+  "chunked_prefill_size": 8192,
+  "prefill_max_requests": 8
+}

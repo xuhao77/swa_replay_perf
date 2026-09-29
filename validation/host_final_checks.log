@@ -1,0 +1,51 @@
+Host experiment final audit: 2026-09-29T08:53:24Z
+
+=== Lint, formatting and syntax ===
+All checks passed!
+11 files already formatted
+Syntax and unchanged compatibility patch: PASS
+
+=== Complete raw-data validation ===
+{
+  "passed": true,
+  "protocol": "host_l2_v1",
+  "server_blocks": 4,
+  "stages_including_warmup": 104,
+  "requests_including_cold_and_warmup": 832,
+  "measured_replay_batches": 40,
+  "measured_batches_per_backend": {
+    "bounded_on_l2": 20,
+    "bounded_off_host": 20
+  },
+  "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+  "all_device_hits_zero": true,
+  "host_hits_per_replay_request": 7936,
+  "all_cold_replay_and_cross_backend_output_ids_equal": true,
+  "paged_swa_capacity_not_enlarged": true,
+  "mps_available_before_all_four_blocks": true
+}
+
+=== Independent aggregation and timing source hashes ===
+bounded_on_l2: prefill=41412.149569 logical token/s; complete=37667.910684 logical token/s
+bounded_off_host: prefill=191093.534941 logical token/s; complete=137662.002626 logical token/s
+Unchanged throughout measurement and matching code snapshot: benchmark.py
+Unchanged throughout measurement and matching code snapshot: benchmark_host.py
+Unchanged throughout measurement and matching code snapshot: host_control.py
+Unchanged throughout measurement and matching code snapshot: server_entry.py
+Unchanged throughout measurement and matching code snapshot: launch_server.sh
+Unchanged throughout measurement and matching code snapshot: manage_server.py
+Unchanged throughout measurement and matching code snapshot: run_host_experiments.sh
+
+=== Refuse overwrite before starting MPS ===
+Refusing to overwrite existing result directory: /root/swa_replay_perf/host_results
+Existing results protected: PASS
+
+=== Original GPU-only artifacts preserved ===
+Historical checksums: PASS
+
+=== Final resource cleanup ===
+gpu_uuid, pid, process_name, used_gpu_memory [MiB]
+Filesystem      Size  Used Avail Use% Mounted on
+shm             2.0T  4.8M  2.0T   1% /dev/shm
+Experiment server and pilot-owned MPS stopped: PASS
+Final host artifact checksums: PASS

@@ -1,0 +1,122 @@
+[
+  {
+    "request_id": "bounded_off-warmup_01-cold-0",
+    "received_seconds": 0.460461185,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-1",
+    "received_seconds": 0.742968086,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-2",
+    "received_seconds": 1.023849953,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-3",
+    "received_seconds": 1.304779922,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-4",
+    "received_seconds": 1.585937074,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-5",
+    "received_seconds": 1.866438616,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-6",
+    "received_seconds": 2.145558883,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-7",
+    "received_seconds": 2.399982649,
+    "completion_tokens": 1,
+    "finish_reason": null
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-4",
+    "received_seconds": 2.528841422,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-7",
+    "received_seconds": 2.528885011,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-5",
+    "received_seconds": 2.528903264,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-0",
+    "received_seconds": 2.528916857,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-1",
+    "received_seconds": 2.528930739,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-6",
+    "received_seconds": 2.528944664,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-2",
+    "received_seconds": 2.528956946,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  },
+  {
+    "request_id": "bounded_off-warmup_01-cold-3",
+    "received_seconds": 2.528968423,
+    "completion_tokens": 2,
+    "finish_reason": {
+      "type": "length",
+      "length": 2
+    }
+  }
+]

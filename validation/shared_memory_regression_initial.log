@@ -1,0 +1,45 @@
+....FF                                                                   [100%]
+=================================== FAILURES ===================================
+_______________ test_native_schedule_handles_large_prefill[4096] _______________
+
+query_count = 4096
+
+    @pytest.mark.parametrize("query_count", [4096, 8192])
+    def test_native_schedule_handles_large_prefill(query_count: int):
+        lengths = torch.full((query_count,), 128, dtype=torch.int32, device="cuda")
+        output, logsumexp, schedule = _call(_cache(), query_count, 1, 128, lengths)
+        assert output.shape[0] == query_count
+        assert logsumexp.shape[0] == query_count
+>       assert schedule.tile_scheduler_metadata is not None
+E       assert None is not None
+E        +  where None = FlashMLASchedMeta(have_initialized=True, config=FlashMLASchedMeta.Config(b=4096, s_q=1, h_q=64, page_block_size=288, h... topk=128, extra_page_block_size=None, extra_topk=None, kv_format=None), tile_scheduler_metadata=None, num_splits=None).tile_scheduler_metadata
+
+test/registered/kernels/ops/attention/test_flashmla_sched_meta.py:203: AssertionError
+_______________ test_native_schedule_handles_large_prefill[8192] _______________
+
+query_count = 8192
+
+    @pytest.mark.parametrize("query_count", [4096, 8192])
+    def test_native_schedule_handles_large_prefill(query_count: int):
+        lengths = torch.full((query_count,), 128, dtype=torch.int32, device="cuda")
+        output, logsumexp, schedule = _call(_cache(), query_count, 1, 128, lengths)
+        assert output.shape[0] == query_count
+        assert logsumexp.shape[0] == query_count
+>       assert schedule.tile_scheduler_metadata is not None
+E       assert None is not None
+E        +  where None = FlashMLASchedMeta(have_initialized=True, config=FlashMLASchedMeta.Config(b=8192, s_q=1, h_q=64, page_block_size=288, h... topk=128, extra_page_block_size=None, extra_topk=None, kv_format=None), tile_scheduler_metadata=None, num_splits=None).tile_scheduler_metadata
+
+test/registered/kernels/ops/attention/test_flashmla_sched_meta.py:203: AssertionError
+=============================== warnings summary ===============================
+registered/kernels/ops/attention/test_flashmla_sched_meta.py: 14 warnings
+  /root/nvfp4-validation/venv/lib/python3.12/site-packages/torch/jit/_script.py:365: DeprecationWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+registered/kernels/ops/attention/test_flashmla_sched_meta.py::test_precompute_falls_back_above_shared_memory_limit[128]
+  <frozen abc>:106: DeprecationWarning: MultiPlatformOp is deprecated; subclass sglang.kernels.fused_op.BaseFusedOp instead (RFC #29630).
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED test/registered/kernels/ops/attention/test_flashmla_sched_meta.py::test_native_schedule_handles_large_prefill[4096]
+FAILED test/registered/kernels/ops/attention/test_flashmla_sched_meta.py::test_native_schedule_handles_large_prefill[8192]
+2 failed, 4 passed, 36 deselected, 15 warnings in 7.70s

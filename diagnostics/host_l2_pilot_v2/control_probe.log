@@ -1,0 +1,6 @@
+DIAGNOSTIC ONLY: this running pilot has the older empty host-pool startup audit; no formal data is collected.
+Configure cold phase
+Run cold batch
+Evict only device cache
+Run host replay batch
+Host replay verified: [{'device': 0, 'host': 7936}, {'device': 0, 'host': 7936}, {'device': 0, 'host': 7936}, {'device': 0, 'host': 7936}, {'device': 0, 'host': 7936}, {'device': 0, 'host': 7936}, {'device': 0, 'host': 7936}, {'device': 0, 'host': 7936}]

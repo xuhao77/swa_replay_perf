@@ -1,0 +1,308 @@
+Saved environment and source fingerprints to /root/swa_replay_perf/host_results/environment
+{"pid": 62441, "create_time": 1790670648.36, "mode": "bounded_on_l2", "run_directory": "/root/swa_replay_perf/host_results/01_bounded_on_l2", "base_url": "http://127.0.0.1:30180"}
+Server is ready; configuration saved to /root/swa_replay_perf/host_results/01_bounded_on_l2/server_info.json
+bounded_on_l2 warmup_00: first_token=1.605731s complete=1.763681s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 warmup_01: first_token=1.586780s complete=1.743961s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 warmup_02: first_token=1.586337s complete=1.743556s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_00: first_token=1.582853s complete=1.741269s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_01: first_token=1.589432s complete=1.746488s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_02: first_token=1.582816s complete=1.740378s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_03: first_token=1.586076s complete=1.743056s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_04: first_token=1.588808s complete=1.746112s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_05: first_token=1.581192s complete=1.738730s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_06: first_token=1.585671s complete=1.743354s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_07: first_token=1.585925s complete=1.743646s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_08: first_token=1.586992s complete=1.744613s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_09: first_token=1.584412s complete=1.743038s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+{
+  "measured_pairs": 10,
+  "mean_replay_seconds": 1.743068541,
+  "mean_batch_first_token_seconds": 1.5854176621,
+  "aggregate_logical_input_tokens_per_second": 37598.0625308067,
+  "aggregate_prefill_logical_input_tokens_per_second": 41336.74145725918
+}
+Stopped the experiment server and its workers.
+{"pid": 66256, "create_time": 1790670829.11, "mode": "bounded_off_host", "run_directory": "/root/swa_replay_perf/host_results/02_bounded_off_host", "base_url": "http://127.0.0.1:30180"}
+Server is ready; configuration saved to /root/swa_replay_perf/host_results/02_bounded_off_host/server_info.json
+bounded_off_host warmup_00: first_token=0.365666s complete=0.498156s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host warmup_01: first_token=0.344291s complete=0.476530s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host warmup_02: first_token=0.341102s complete=0.473118s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_00: first_token=0.341127s complete=0.474543s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_01: first_token=0.340683s complete=0.474399s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_02: first_token=0.339941s complete=0.472229s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_03: first_token=0.337689s complete=0.471465s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_04: first_token=0.341459s complete=0.473178s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_05: first_token=0.341375s complete=0.474084s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_06: first_token=0.342739s complete=0.475059s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_07: first_token=0.342543s complete=0.476283s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_08: first_token=0.341858s complete=0.476969s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_09: first_token=0.340627s complete=0.472781s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+{
+  "measured_pairs": 10,
+  "mean_replay_seconds": 0.4740989984,
+  "mean_batch_first_token_seconds": 0.3410042646,
+  "aggregate_logical_input_tokens_per_second": 138232.73244864968,
+  "aggregate_prefill_logical_input_tokens_per_second": 192185.27978491446
+}
+Stopped the experiment server and its workers.
+{"pid": 70674, "create_time": 1790671011.82, "mode": "bounded_off_host", "run_directory": "/root/swa_replay_perf/host_results/03_bounded_off_host", "base_url": "http://127.0.0.1:30180"}
+Server is ready; configuration saved to /root/swa_replay_perf/host_results/03_bounded_off_host/server_info.json
+bounded_off_host warmup_00: first_token=0.357992s complete=0.491647s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host warmup_01: first_token=0.347574s complete=0.480098s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host warmup_02: first_token=0.343303s complete=0.477694s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_00: first_token=0.346618s complete=0.480195s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_01: first_token=0.342508s complete=0.475297s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_02: first_token=0.349862s complete=0.482550s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_03: first_token=0.344644s complete=0.477971s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_04: first_token=0.345753s complete=0.478912s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_05: first_token=0.344034s complete=0.477055s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_06: first_token=0.343960s complete=0.476600s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_07: first_token=0.343731s complete=0.476449s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_08: first_token=0.346105s complete=0.480410s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_09: first_token=0.341792s complete=0.474863s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+{
+  "measured_pairs": 10,
+  "mean_replay_seconds": 0.4780301113,
+  "mean_batch_first_token_seconds": 0.34490067739999997,
+  "aggregate_logical_input_tokens_per_second": 137095.96623897864,
+  "aggregate_prefill_logical_input_tokens_per_second": 190014.12375886508
+}
+Stopped the experiment server and its workers.
+{"pid": 75116, "create_time": 1790671198.49, "mode": "bounded_on_l2", "run_directory": "/root/swa_replay_perf/host_results/04_bounded_on_l2", "base_url": "http://127.0.0.1:30180"}
+Server is ready; configuration saved to /root/swa_replay_perf/host_results/04_bounded_on_l2/server_info.json
+bounded_on_l2 warmup_00: first_token=1.600447s complete=1.758400s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 warmup_01: first_token=1.589301s complete=1.746280s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 warmup_02: first_token=1.583856s complete=1.741371s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_00: first_token=1.588256s complete=1.745917s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_01: first_token=1.585036s complete=1.742664s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_02: first_token=1.582284s complete=1.739468s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_03: first_token=1.581802s complete=1.739008s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_04: first_token=1.584424s complete=1.741547s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_05: first_token=1.584310s complete=1.741711s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_06: first_token=1.571179s complete=1.727339s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_07: first_token=1.572538s complete=1.729053s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_08: first_token=1.574135s complete=1.730173s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_09: first_token=1.572476s complete=1.729162s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+{
+  "measured_pairs": 10,
+  "mean_replay_seconds": 1.7366041464,
+  "mean_batch_first_token_seconds": 1.5796438323,
+  "aggregate_logical_input_tokens_per_second": 37738.01884318708,
+  "aggregate_prefill_logical_input_tokens_per_second": 41487.83330770075
+}
+Stopped the experiment server and its workers.
+Saved environment and source fingerprints to /root/swa_replay_perf/host_results/environment_after
+{
+  "passed": true,
+  "protocol": "host_l2_v1",
+  "server_blocks": 4,
+  "stages_including_warmup": 104,
+  "requests_including_cold_and_warmup": 832,
+  "measured_replay_batches": 40,
+  "measured_batches_per_backend": {
+    "bounded_on_l2": 20,
+    "bounded_off_host": 20
+  },
+  "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+  "all_device_hits_zero": true,
+  "host_hits_per_replay_request": 7936,
+  "all_cold_replay_and_cross_backend_output_ids_equal": true,
+  "paged_swa_capacity_not_enlarged": true
+}
+{
+  "protocol": "host_l2_v1",
+  "generated_utc": "2026-09-29T08:43:10.438653+00:00",
+  "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+  "groups": {
+    "bounded_on_l2": {
+      "samples": 20,
+      "total_seconds": 34.796726874,
+      "mean_batch_seconds": 1.7398363437,
+      "median_batch_seconds": 1.741629445,
+      "p95_batch_seconds": 1.74613094725,
+      "min_batch_seconds": 1.727338854,
+      "max_batch_seconds": 1.746487753,
+      "stdev_batch_seconds": 0.0060243671057807514,
+      "aggregate_logical_input_tokens_per_second": 37667.91068442031,
+      "aggregate_requests_per_second": 4.598133628469276,
+      "aggregate_output_tokens_per_second": 9.196267256938553,
+      "mean_batch_first_token_seconds": 1.5825307471999999,
+      "median_batch_first_token_seconds": 1.584361303,
+      "p95_batch_first_token_seconds": 1.58883899765,
+      "aggregate_prefill_logical_input_tokens_per_second": 41412.149568628614,
+      "aggregate_prefill_requests_per_second": 5.055194039139235,
+      "mean_server_first_token_seconds": 1.5790035844312797,
+      "cached_tokens_per_request": [
+        7936
+      ],
+      "replay_tokens_per_batch": [
+        1024.0
+      ],
+      "all_cold_cache_zero": true,
+      "all_cold_replay_output_ids_equal": true,
+      "all_semantically_correct": true
+    },
+    "bounded_off_host": {
+      "samples": 20,
+      "total_seconds": 9.521291097,
+      "mean_batch_seconds": 0.47606455485,
+      "median_batch_seconds": 0.47578999450000004,
+      "p95_batch_seconds": 0.48051670579999994,
+      "min_batch_seconds": 0.471465226,
+      "max_batch_seconds": 0.482550101,
+      "stdev_batch_seconds": 0.0028934112585252444,
+      "aggregate_logical_input_tokens_per_second": 137662.00262619698,
+      "aggregate_requests_per_second": 16.804443679955686,
+      "aggregate_output_tokens_per_second": 33.60888735991137,
+      "mean_batch_first_token_seconds": 0.342952471,
+      "median_batch_first_token_seconds": 0.3425258485,
+      "p95_batch_first_token_seconds": 0.346780403,
+      "aggregate_prefill_logical_input_tokens_per_second": 191093.53494058948,
+      "aggregate_prefill_requests_per_second": 23.326847526927427,
+      "mean_server_first_token_seconds": 0.33948288711256963,
+      "cached_tokens_per_request": [
+        7936
+      ],
+      "replay_tokens_per_batch": [
+        0.0
+      ],
+      "all_cold_cache_zero": true,
+      "all_cold_replay_output_ids_equal": true,
+      "all_semantically_correct": true
+    }
+  },
+  "blocks": [
+    {
+      "name": "01_bounded_on_l2",
+      "backend": "bounded_on_l2",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 17.43068541,
+        "mean_batch_seconds": 1.743068541,
+        "median_batch_seconds": 1.743205347,
+        "p95_batch_seconds": 1.74631873975,
+        "min_batch_seconds": 1.738729629,
+        "max_batch_seconds": 1.746487753,
+        "stdev_batch_seconds": 0.0024280126175476647,
+        "aggregate_logical_input_tokens_per_second": 37598.0625308067,
+        "aggregate_requests_per_second": 4.589607242530115,
+        "aggregate_output_tokens_per_second": 9.17921448506023,
+        "mean_batch_first_token_seconds": 1.5854176621,
+        "median_batch_first_token_seconds": 1.5857978455,
+        "p95_batch_first_token_seconds": 1.5891513441499998,
+        "aggregate_prefill_logical_input_tokens_per_second": 41336.74145725918,
+        "aggregate_prefill_requests_per_second": 5.045988947419334,
+        "mean_server_first_token_seconds": 1.5820123922875382,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          1024.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    },
+    {
+      "name": "02_bounded_off_host",
+      "backend": "bounded_off_host",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 4.7409899840000005,
+        "mean_batch_seconds": 0.4740989984,
+        "median_batch_seconds": 0.4742411055,
+        "p95_batch_seconds": 0.4766603043,
+        "min_batch_seconds": 0.471465226,
+        "max_batch_seconds": 0.476968674,
+        "stdev_batch_seconds": 0.0017395780942892208,
+        "aggregate_logical_input_tokens_per_second": 138232.73244864968,
+        "aggregate_requests_per_second": 16.874112847735557,
+        "aggregate_output_tokens_per_second": 33.74822569547111,
+        "mean_batch_first_token_seconds": 0.3410042646,
+        "median_batch_first_token_seconds": 0.34125115500000003,
+        "p95_batch_first_token_seconds": 0.3426509061,
+        "aggregate_prefill_logical_input_tokens_per_second": 192185.27978491446,
+        "aggregate_prefill_requests_per_second": 23.46011716124444,
+        "mean_server_first_token_seconds": 0.33760544186250174,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          0.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    },
+    {
+      "name": "03_bounded_off_host",
+      "backend": "bounded_off_host",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 4.780301113,
+        "mean_batch_seconds": 0.4780301113,
+        "median_batch_seconds": 0.4775128985,
+        "p95_batch_seconds": 0.48158691379999996,
+        "min_batch_seconds": 0.474863158,
+        "max_batch_seconds": 0.482550101,
+        "stdev_batch_seconds": 0.002462187709026761,
+        "aggregate_logical_input_tokens_per_second": 137095.96623897864,
+        "aggregate_requests_per_second": 16.735347441281572,
+        "aggregate_output_tokens_per_second": 33.470694882563144,
+        "mean_batch_first_token_seconds": 0.34490067739999997,
+        "median_batch_first_token_seconds": 0.34433900650000004,
+        "p95_batch_first_token_seconds": 0.34840210299999996,
+        "aggregate_prefill_logical_input_tokens_per_second": 190014.12375886508,
+        "aggregate_prefill_requests_per_second": 23.195083466658335,
+        "mean_server_first_token_seconds": 0.3413603323626376,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          0.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    },
+    {
+      "name": "04_bounded_on_l2",
+      "backend": "bounded_on_l2",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 17.366041464,
+        "mean_batch_seconds": 1.7366041464,
+        "median_batch_seconds": 1.73923768,
+        "p95_batch_seconds": 1.7444531371499998,
+        "min_batch_seconds": 1.727338854,
+        "max_batch_seconds": 1.745916903,
+        "stdev_batch_seconds": 0.006892570769537692,
+        "aggregate_logical_input_tokens_per_second": 37738.01884318708,
+        "aggregate_requests_per_second": 4.606691753318735,
+        "aggregate_output_tokens_per_second": 9.21338350663747,
+        "mean_batch_first_token_seconds": 1.5796438323,
+        "median_batch_first_token_seconds": 1.5820427025,
+        "p95_batch_first_token_seconds": 1.5868068305,
+        "aggregate_prefill_logical_input_tokens_per_second": 41487.83330770075,
+        "aggregate_prefill_requests_per_second": 5.064432776818939,
+        "mean_server_first_token_seconds": 1.5759947765750213,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          1024.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    }
+  ],
+  "off_vs_on_prefill_throughput_ratio": 4.614431680826117,
+  "off_vs_on_throughput_ratio": 3.654622731255834,
+  "all_device_hits_zero": true,
+  "host_cached_tokens_per_request": 7936
+}

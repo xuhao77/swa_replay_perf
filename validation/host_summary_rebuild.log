@@ -1,0 +1,197 @@
+{
+  "protocol": "host_l2_v1",
+  "generated_utc": "2026-09-29T08:53:39.035349+00:00",
+  "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+  "groups": {
+    "bounded_on_l2": {
+      "samples": 20,
+      "total_seconds": 34.796726874,
+      "mean_batch_seconds": 1.7398363437,
+      "median_batch_seconds": 1.741629445,
+      "p95_batch_seconds": 1.74613094725,
+      "min_batch_seconds": 1.727338854,
+      "max_batch_seconds": 1.746487753,
+      "stdev_batch_seconds": 0.0060243671057807514,
+      "aggregate_logical_input_tokens_per_second": 37667.91068442031,
+      "aggregate_requests_per_second": 4.598133628469276,
+      "aggregate_output_tokens_per_second": 9.196267256938553,
+      "mean_batch_first_token_seconds": 1.5825307471999999,
+      "median_batch_first_token_seconds": 1.584361303,
+      "p95_batch_first_token_seconds": 1.58883899765,
+      "aggregate_prefill_logical_input_tokens_per_second": 41412.149568628614,
+      "aggregate_prefill_requests_per_second": 5.055194039139235,
+      "mean_server_first_token_seconds": 1.5790035844312797,
+      "cached_tokens_per_request": [
+        7936
+      ],
+      "replay_tokens_per_batch": [
+        1024.0
+      ],
+      "all_cold_cache_zero": true,
+      "all_cold_replay_output_ids_equal": true,
+      "all_semantically_correct": true
+    },
+    "bounded_off_host": {
+      "samples": 20,
+      "total_seconds": 9.521291097,
+      "mean_batch_seconds": 0.47606455485,
+      "median_batch_seconds": 0.47578999450000004,
+      "p95_batch_seconds": 0.48051670579999994,
+      "min_batch_seconds": 0.471465226,
+      "max_batch_seconds": 0.482550101,
+      "stdev_batch_seconds": 0.0028934112585252444,
+      "aggregate_logical_input_tokens_per_second": 137662.00262619698,
+      "aggregate_requests_per_second": 16.804443679955686,
+      "aggregate_output_tokens_per_second": 33.60888735991137,
+      "mean_batch_first_token_seconds": 0.342952471,
+      "median_batch_first_token_seconds": 0.3425258485,
+      "p95_batch_first_token_seconds": 0.346780403,
+      "aggregate_prefill_logical_input_tokens_per_second": 191093.53494058948,
+      "aggregate_prefill_requests_per_second": 23.326847526927427,
+      "mean_server_first_token_seconds": 0.33948288711256963,
+      "cached_tokens_per_request": [
+        7936
+      ],
+      "replay_tokens_per_batch": [
+        0.0
+      ],
+      "all_cold_cache_zero": true,
+      "all_cold_replay_output_ids_equal": true,
+      "all_semantically_correct": true
+    }
+  },
+  "blocks": [
+    {
+      "name": "01_bounded_on_l2",
+      "backend": "bounded_on_l2",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 17.43068541,
+        "mean_batch_seconds": 1.743068541,
+        "median_batch_seconds": 1.743205347,
+        "p95_batch_seconds": 1.74631873975,
+        "min_batch_seconds": 1.738729629,
+        "max_batch_seconds": 1.746487753,
+        "stdev_batch_seconds": 0.0024280126175476647,
+        "aggregate_logical_input_tokens_per_second": 37598.0625308067,
+        "aggregate_requests_per_second": 4.589607242530115,
+        "aggregate_output_tokens_per_second": 9.17921448506023,
+        "mean_batch_first_token_seconds": 1.5854176621,
+        "median_batch_first_token_seconds": 1.5857978455,
+        "p95_batch_first_token_seconds": 1.5891513441499998,
+        "aggregate_prefill_logical_input_tokens_per_second": 41336.74145725918,
+        "aggregate_prefill_requests_per_second": 5.045988947419334,
+        "mean_server_first_token_seconds": 1.5820123922875382,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          1024.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    },
+    {
+      "name": "02_bounded_off_host",
+      "backend": "bounded_off_host",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 4.7409899840000005,
+        "mean_batch_seconds": 0.4740989984,
+        "median_batch_seconds": 0.4742411055,
+        "p95_batch_seconds": 0.4766603043,
+        "min_batch_seconds": 0.471465226,
+        "max_batch_seconds": 0.476968674,
+        "stdev_batch_seconds": 0.0017395780942892208,
+        "aggregate_logical_input_tokens_per_second": 138232.73244864968,
+        "aggregate_requests_per_second": 16.874112847735557,
+        "aggregate_output_tokens_per_second": 33.74822569547111,
+        "mean_batch_first_token_seconds": 0.3410042646,
+        "median_batch_first_token_seconds": 0.34125115500000003,
+        "p95_batch_first_token_seconds": 0.3426509061,
+        "aggregate_prefill_logical_input_tokens_per_second": 192185.27978491446,
+        "aggregate_prefill_requests_per_second": 23.46011716124444,
+        "mean_server_first_token_seconds": 0.33760544186250174,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          0.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    },
+    {
+      "name": "03_bounded_off_host",
+      "backend": "bounded_off_host",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 4.780301113,
+        "mean_batch_seconds": 0.4780301113,
+        "median_batch_seconds": 0.4775128985,
+        "p95_batch_seconds": 0.48158691379999996,
+        "min_batch_seconds": 0.474863158,
+        "max_batch_seconds": 0.482550101,
+        "stdev_batch_seconds": 0.002462187709026761,
+        "aggregate_logical_input_tokens_per_second": 137095.96623897864,
+        "aggregate_requests_per_second": 16.735347441281572,
+        "aggregate_output_tokens_per_second": 33.470694882563144,
+        "mean_batch_first_token_seconds": 0.34490067739999997,
+        "median_batch_first_token_seconds": 0.34433900650000004,
+        "p95_batch_first_token_seconds": 0.34840210299999996,
+        "aggregate_prefill_logical_input_tokens_per_second": 190014.12375886508,
+        "aggregate_prefill_requests_per_second": 23.195083466658335,
+        "mean_server_first_token_seconds": 0.3413603323626376,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          0.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    },
+    {
+      "name": "04_bounded_on_l2",
+      "backend": "bounded_on_l2",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 17.366041464,
+        "mean_batch_seconds": 1.7366041464,
+        "median_batch_seconds": 1.73923768,
+        "p95_batch_seconds": 1.7444531371499998,
+        "min_batch_seconds": 1.727338854,
+        "max_batch_seconds": 1.745916903,
+        "stdev_batch_seconds": 0.006892570769537692,
+        "aggregate_logical_input_tokens_per_second": 37738.01884318708,
+        "aggregate_requests_per_second": 4.606691753318735,
+        "aggregate_output_tokens_per_second": 9.21338350663747,
+        "mean_batch_first_token_seconds": 1.5796438323,
+        "median_batch_first_token_seconds": 1.5820427025,
+        "p95_batch_first_token_seconds": 1.5868068305,
+        "aggregate_prefill_logical_input_tokens_per_second": 41487.83330770075,
+        "aggregate_prefill_requests_per_second": 5.064432776818939,
+        "mean_server_first_token_seconds": 1.5759947765750213,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          1024.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    }
+  ],
+  "off_vs_on_prefill_throughput_ratio": 4.614431680826117,
+  "off_vs_on_throughput_ratio": 3.654622731255834,
+  "all_device_hits_zero": true,
+  "host_cached_tokens_per_request": 7936
+}

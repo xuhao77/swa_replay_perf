@@ -1,0 +1,20 @@
+bounded_off_host warmup_00: first_token=0.357992s complete=0.491647s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host warmup_01: first_token=0.347574s complete=0.480098s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host warmup_02: first_token=0.343303s complete=0.477694s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_00: first_token=0.346618s complete=0.480195s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_01: first_token=0.342508s complete=0.475297s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_02: first_token=0.349862s complete=0.482550s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_03: first_token=0.344644s complete=0.477971s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_04: first_token=0.345753s complete=0.478912s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_05: first_token=0.344034s complete=0.477055s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_06: first_token=0.343960s complete=0.476600s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_07: first_token=0.343731s complete=0.476449s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_08: first_token=0.346105s complete=0.480410s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_09: first_token=0.341792s complete=0.474863s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+{
+  "measured_pairs": 10,
+  "mean_replay_seconds": 0.4780301113,
+  "mean_batch_first_token_seconds": 0.34490067739999997,
+  "aggregate_logical_input_tokens_per_second": 137095.96623897864,
+  "aggregate_prefill_logical_input_tokens_per_second": 190014.12375886508
+}

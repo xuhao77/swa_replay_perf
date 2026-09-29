@@ -1,0 +1,10 @@
+bounded_off_host warmup_00: first_token=0.356422s complete=0.492578s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_00: first_token=0.342181s complete=0.474606s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+bounded_off_host measure_01: first_token=0.343891s complete=0.476949s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=0
+{
+  "measured_pairs": 2,
+  "mean_replay_seconds": 0.4757775745,
+  "mean_batch_first_token_seconds": 0.3430362175,
+  "aggregate_logical_input_tokens_per_second": 137745.03783385022,
+  "aggregate_prefill_logical_input_tokens_per_second": 191046.8826808353
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="6" time="7.700" timestamp="2026-09-29T07:26:59.650028+00:00" hostname="umb-b200-235"><testcase classname="registered.kernels.ops.attention.test_flashmla_sched_meta" name="test_precompute_falls_back_above_shared_memory_limit[128]" time="3.176" /><testcase classname="registered.kernels.ops.attention.test_flashmla_sched_meta" name="test_precompute_falls_back_above_shared_memory_limit[2048]" time="0.001" /><testcase classname="registered.kernels.ops.attention.test_flashmla_sched_meta" name="test_precompute_falls_back_above_shared_memory_limit[4096]" time="0.001" /><testcase classname="registered.kernels.ops.attention.test_flashmla_sched_meta" name="test_precompute_falls_back_above_shared_memory_limit[8192]" time="0.001" /><testcase classname="registered.kernels.ops.attention.test_flashmla_sched_meta" name="test_native_schedule_handles_large_prefill[4096]" time="0.322"><failure message="assert None is not None&#10; +  where None = FlashMLASchedMeta(have_initialized=True, config=FlashMLASchedMeta.Config(b=4096, s_q=1, h_q=64, page_block_size=288, h... topk=128, extra_page_block_size=None, extra_topk=None, kv_format=None), tile_scheduler_metadata=None, num_splits=None).tile_scheduler_metadata">query_count = 4096
+
+    @pytest.mark.parametrize("query_count", [4096, 8192])
+    def test_native_schedule_handles_large_prefill(query_count: int):
+        lengths = torch.full((query_count,), 128, dtype=torch.int32, device="cuda")
+        output, logsumexp, schedule = _call(_cache(), query_count, 1, 128, lengths)
+        assert output.shape[0] == query_count
+        assert logsumexp.shape[0] == query_count
+&gt;       assert schedule.tile_scheduler_metadata is not None
+E       assert None is not None
+E        +  where None = FlashMLASchedMeta(have_initialized=True, config=FlashMLASchedMeta.Config(b=4096, s_q=1, h_q=64, page_block_size=288, h... topk=128, extra_page_block_size=None, extra_topk=None, kv_format=None), tile_scheduler_metadata=None, num_splits=None).tile_scheduler_metadata
+
+test/registered/kernels/ops/attention/test_flashmla_sched_meta.py:203: AssertionError</failure></testcase><testcase classname="registered.kernels.ops.attention.test_flashmla_sched_meta" name="test_native_schedule_handles_large_prefill[8192]" time="0.002"><failure message="assert None is not None&#10; +  where None = FlashMLASchedMeta(have_initialized=True, config=FlashMLASchedMeta.Config(b=8192, s_q=1, h_q=64, page_block_size=288, h... topk=128, extra_page_block_size=None, extra_topk=None, kv_format=None), tile_scheduler_metadata=None, num_splits=None).tile_scheduler_metadata">query_count = 8192
+
+    @pytest.mark.parametrize("query_count", [4096, 8192])
+    def test_native_schedule_handles_large_prefill(query_count: int):
+        lengths = torch.full((query_count,), 128, dtype=torch.int32, device="cuda")
+        output, logsumexp, schedule = _call(_cache(), query_count, 1, 128, lengths)
+        assert output.shape[0] == query_count
+        assert logsumexp.shape[0] == query_count
+&gt;       assert schedule.tile_scheduler_metadata is not None
+E       assert None is not None
+E        +  where None = FlashMLASchedMeta(have_initialized=True, config=FlashMLASchedMeta.Config(b=8192, s_q=1, h_q=64, page_block_size=288, h... topk=128, extra_page_block_size=None, extra_topk=None, kv_format=None), tile_scheduler_metadata=None, num_splits=None).tile_scheduler_metadata
+
+test/registered/kernels/ops/attention/test_flashmla_sched_meta.py:203: AssertionError</failure></testcase></testsuite></testsuites>

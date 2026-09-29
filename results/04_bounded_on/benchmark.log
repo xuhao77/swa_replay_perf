@@ -1,0 +1,25 @@
+bounded_on warmup_00: cold=2.0730s replay=2.0736s batch_ttft=1.9226s effective_input=31605.4 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on warmup_01: cold=1.7745s replay=1.7052s batch_ttft=1.5549s effective_input=38434.1 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on warmup_02: cold=1.7729s replay=1.7081s batch_ttft=1.5570s effective_input=38368.8 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_00: cold=1.7705s replay=1.7039s batch_ttft=1.5528s effective_input=38462.1 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_01: cold=1.7731s replay=1.7029s batch_ttft=1.5524s effective_input=38484.3 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_02: cold=1.7723s replay=1.7038s batch_ttft=1.5531s effective_input=38465.6 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_03: cold=1.7721s replay=1.7051s batch_ttft=1.5544s effective_input=38434.6 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_04: cold=1.7679s replay=1.6916s batch_ttft=1.5419s effective_input=38743.0 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_05: cold=1.7682s replay=1.6878s batch_ttft=1.5381s effective_input=38828.8 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_06: cold=1.7698s replay=1.6896s batch_ttft=1.5400s effective_input=38789.0 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_07: cold=1.7733s replay=1.6960s batch_ttft=1.5461s effective_input=38641.9 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_08: cold=1.7712s replay=1.6920s batch_ttft=1.5420s effective_input=38733.9 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+bounded_on measure_09: cold=1.7702s replay=1.6945s batch_ttft=1.5446s effective_input=38675.6 token/s cached=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024 output_equal=True
+{
+  "measured_pairs": 10,
+  "total_replay_seconds": 16.967098531,
+  "mean_replay_seconds": 1.6967098531,
+  "median_replay_seconds": 1.6952436794999999,
+  "aggregate_logical_input_tokens_per_second": 38625.342972024024,
+  "aggregate_requests_per_second": 4.715007687014651,
+  "mean_batch_first_token_seconds": 1.5465300862,
+  "aggregate_prefill_logical_input_tokens_per_second": 42376.155876171404,
+  "all_cold_replay_output_ids_equal": true,
+  "all_semantically_correct": true
+}

@@ -1,0 +1,18 @@
+Final checks at 2026-09-29T09:21:42+00:00
+All checks passed!
+5 files already formatted
+bounded_on_l2 first_token_input_tps=41412.149568629 complete_input_tps=37667.910684420
+bounded_off_host first_token_input_tps=191093.534940589 complete_input_tps=137662.002626197
+bounded_on_flexkv first_token_input_tps=40493.609477318 complete_input_tps=36953.092439527
+Independent SSE-based aggregation, CSV, source hashes, and process state passed.
+host_results: all artifact checksums passed
+third_group_results: all artifact checksums passed
+three_group_results: all artifact checksums passed
+../host_results/artifacts.sha256: OK
+../third_group_results/artifacts.sha256: OK
+No inference errors in measured stages.
+
+Current source changes
+ M python/sglang/srt/layers/attention/deepseek_v4_backend.py
+ M test/registered/kernels/ops/attention/test_flashmla_sched_meta.py
+?? tests/test_dsv41_nvfp4_roundtrip.py

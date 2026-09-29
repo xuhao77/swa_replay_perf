@@ -1,0 +1,131 @@
+[2026-09-29 08:36:01] INFO:     127.0.0.1:49566 - "POST /generate HTTP/1.1" 200 OK
+[2026-09-29 08:36:01 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-0
+[2026-09-29 08:36:01 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-1
+[2026-09-29 08:36:01 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-0
+[2026-09-29 08:36:01 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-2
+[2026-09-29 08:36:01 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-0
+[2026-09-29 08:36:01 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-0
+[2026-09-29 08:36:01 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-3
+[2026-09-29 08:36:01 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-4
+[2026-09-29 08:36:01 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-1
+[2026-09-29 08:36:01 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-1
+[2026-09-29 08:36:01 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-1
+[2026-09-29 08:36:01 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-5
+[2026-09-29 08:36:01 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-2
+[2026-09-29 08:36:01 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-2
+[2026-09-29 08:36:01 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-2
+[2026-09-29 08:36:01 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-6
+[2026-09-29 08:36:01 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-3
+[2026-09-29 08:36:01 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-3
+[2026-09-29 08:36:01 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-3
+[2026-09-29 08:36:01 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-7
+[2026-09-29 08:36:01 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-0
+[2026-09-29 08:36:01 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-4
+[2026-09-29 08:36:01 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-4
+[2026-09-29 08:36:01 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-0
+[2026-09-29 08:36:01 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-4
+[2026-09-29 08:36:01 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-0
+[2026-09-29 08:36:01 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-5
+[2026-09-29 08:36:01 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-0
+[2026-09-29 08:36:01 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-5
+[2026-09-29 08:36:01 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-5
+[2026-09-29 08:36:01 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-1
+[2026-09-29 08:36:01 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-1
+[2026-09-29 08:36:01 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-6
+[2026-09-29 08:36:01 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-6
+[2026-09-29 08:36:01 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-6
+[2026-09-29 08:36:01 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-1
+[2026-09-29 08:36:01 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-2
+[2026-09-29 08:36:01 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-1
+[2026-09-29 08:36:01 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-7
+[2026-09-29 08:36:01 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-7
+[2026-09-29 08:36:01 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-2
+[2026-09-29 08:36:01 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-7
+[2026-09-29 08:36:01 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-3
+[2026-09-29 08:36:01 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-2
+[2026-09-29 08:36:01 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-2
+[2026-09-29 08:36:01 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-3
+[2026-09-29 08:36:01 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-4
+[2026-09-29 08:36:01 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-3
+[2026-09-29 08:36:01 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-3
+[2026-09-29 08:36:01 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-4
+[2026-09-29 08:36:01 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-5
+[2026-09-29 08:36:01 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-4
+[2026-09-29 08:36:01 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-4
+[2026-09-29 08:36:01 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-5
+[2026-09-29 08:36:01 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-6
+[2026-09-29 08:36:01 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-5
+[2026-09-29 08:36:01 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-5
+[2026-09-29 08:36:01 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-6
+[2026-09-29 08:36:01 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-7
+[2026-09-29 08:36:01 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-6
+[2026-09-29 08:36:01 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-6
+[2026-09-29 08:36:01 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-7
+[2026-09-29 08:36:01 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-7
+[2026-09-29 08:36:01 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-warmup_00-replay-7
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_off-warmup_00-replay-0" flexkv_task_id=38 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0006s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_off-warmup_00-replay-0" flexkv_task_id=38 mode=no-layerwise slots=7936 swa_slots=256
+[FLEXKV] INFO 09-29 08:36:01.469 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=1 op_id=32 graph_id=52 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0055s bandwidth=1.09GB/s
+[FLEXKV] INFO 09-29 08:36:01.470 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=33 graph_id=52 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0006s bandwidth=11.67GB/s
+[FLEXKV] INFO 09-29 08:36:01.471 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=38 graph_id=52 task_time=0.0102s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_off-warmup_00-replay-0" flexkv_task_id=38 mode=no-layerwise slots=7936 swa_slots=256 load_time=0.0095s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_off-warmup_00-replay-1" flexkv_task_id=39 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_off-warmup_00-replay-1" flexkv_task_id=39 mode=no-layerwise slots=7936 swa_slots=256
+[FLEXKV] INFO 09-29 08:36:01.476 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=1 op_id=34 graph_id=53 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0007s bandwidth=9.13GB/s
+[FLEXKV] INFO 09-29 08:36:01.477 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=35 graph_id=53 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0007s bandwidth=10.25GB/s
+[FLEXKV] INFO 09-29 08:36:01.478 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=39 graph_id=53 task_time=0.0048s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_off-warmup_00-replay-1" flexkv_task_id=39 mode=no-layerwise slots=7936 swa_slots=256 load_time=0.0041s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_off-warmup_00-replay-2" flexkv_task_id=40 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_off-warmup_00-replay-2" flexkv_task_id=40 mode=no-layerwise slots=7936 swa_slots=256
+[FLEXKV] INFO 09-29 08:36:01.484 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=1 op_id=36 graph_id=54 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0008s bandwidth=7.58GB/s
+[FLEXKV] INFO 09-29 08:36:01.485 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=37 graph_id=54 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0006s bandwidth=12.09GB/s
+[FLEXKV] INFO 09-29 08:36:01.486 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=40 graph_id=54 task_time=0.0049s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_off-warmup_00-replay-2" flexkv_task_id=40 mode=no-layerwise slots=7936 swa_slots=256 load_time=0.0043s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_off-warmup_00-replay-3" flexkv_task_id=41 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_off-warmup_00-replay-3" flexkv_task_id=41 mode=no-layerwise slots=7936 swa_slots=256
+[FLEXKV] INFO 09-29 08:36:01.491 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=1 op_id=38 graph_id=55 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0007s bandwidth=8.09GB/s
+[FLEXKV] INFO 09-29 08:36:01.492 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=39 graph_id=55 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0007s bandwidth=9.67GB/s
+[FLEXKV] INFO 09-29 08:36:01.493 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=41 graph_id=55 task_time=0.0050s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_off-warmup_00-replay-3" flexkv_task_id=41 mode=no-layerwise slots=7936 swa_slots=256 load_time=0.0044s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_off-warmup_00-replay-4" flexkv_task_id=42 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_off-warmup_00-replay-4" flexkv_task_id=42 mode=no-layerwise slots=7936 swa_slots=256
+[FLEXKV] INFO 09-29 08:36:01.499 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=1 op_id=40 graph_id=56 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0007s bandwidth=8.84GB/s
+[FLEXKV] INFO 09-29 08:36:01.500 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=41 graph_id=56 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=9.15GB/s
+[FLEXKV] INFO 09-29 08:36:01.501 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=42 graph_id=56 task_time=0.0048s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_off-warmup_00-replay-4" flexkv_task_id=42 mode=no-layerwise slots=7936 swa_slots=256 load_time=0.0041s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_off-warmup_00-replay-5" flexkv_task_id=43 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_off-warmup_00-replay-5" flexkv_task_id=43 mode=no-layerwise slots=7936 swa_slots=256
+[FLEXKV] INFO 09-29 08:36:01.506 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=42 graph_id=57 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0007s bandwidth=9.96GB/s
+[FLEXKV] INFO 09-29 08:36:01.507 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=1 op_id=43 graph_id=57 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0006s bandwidth=9.84GB/s
+[FLEXKV] INFO 09-29 08:36:01.508 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=43 graph_id=57 task_time=0.0049s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_off-warmup_00-replay-5" flexkv_task_id=43 mode=no-layerwise slots=7936 swa_slots=256 load_time=0.0043s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_off-warmup_00-replay-6" flexkv_task_id=44 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_off-warmup_00-replay-6" flexkv_task_id=44 mode=no-layerwise slots=7936 swa_slots=256
+[FLEXKV] INFO 09-29 08:36:01.513 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=1 op_id=44 graph_id=58 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0005s bandwidth=12.51GB/s
+[FLEXKV] INFO 09-29 08:36:01.514 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=45 graph_id=58 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0006s bandwidth=12.67GB/s
+[FLEXKV] INFO 09-29 08:36:01.515 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=44 graph_id=58 task_time=0.0042s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_off-warmup_00-replay-6" flexkv_task_id=44 mode=no-layerwise slots=7936 swa_slots=256 load_time=0.0036s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=hit sglang_req_id="bounded_off-warmup_00-replay-7" flexkv_task_id=45 tokens=7936 hit_tokens=7936 hit_blocks=31 lookup_time=0.0005s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=launch status=running direction=H2D sglang_req_id="bounded_off-warmup_00-replay-7" flexkv_task_id=45 mode=no-layerwise slots=7936 swa_slots=256
+[FLEXKV] INFO 09-29 08:36:01.520 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=1 op_id=46 graph_id=59 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0006s bandwidth=9.70GB/s
+[FLEXKV] INFO 09-29 08:36:01.521 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=H2D blocks=31 op_id=47 graph_id=59 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0006s bandwidth=10.97GB/s
+[FLEXKV] INFO 09-29 08:36:01.522 [kvtask.py:300] [FlexKV-IO] operation=get act=complete status=success flexkv_task_id=45 graph_id=59 task_time=0.0047s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=load act=complete status=success direction=H2D sglang_req_id="bounded_off-warmup_00-replay-7" flexkv_task_id=45 mode=no-layerwise slots=7936 swa_slots=256 load_time=0.0040s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-0" flexkv_task_id=46 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-1" flexkv_task_id=47 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-2" flexkv_task_id=48 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-3" flexkv_task_id=49 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-4" flexkv_task_id=50 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-5" flexkv_task_id=51 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-6" flexkv_task_id=52 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-7" flexkv_task_id=53 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] Prefill batch, #new-seq: 8, #new-token: 2048, #cached-token: 63488, #cached-device: 0, #cached-host: 63488, #cached-storage: 0, actual-hit-rate: 0.968750, full token usage: 0.52, swa token usage: 0.12, #running-req: 0, #queue-req: 0, #pending-token: 0, cuda graph: False, input throughput (token/s): 2122.86
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-0" flexkv_task_id=54 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-1" flexkv_task_id=55 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-2" flexkv_task_id=56 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-3" flexkv_task_id=57 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-4" flexkv_task_id=58 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-5" flexkv_task_id=59 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-6" flexkv_task_id=60 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-warmup_00-replay-7" flexkv_task_id=61 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:36:01] INFO:     127.0.0.1:49566 - "GET /metrics HTTP/1.1" 200 OK

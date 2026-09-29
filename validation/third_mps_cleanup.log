@@ -1,0 +1,18 @@
+Cleanup audit at 2026-09-29T09:20:40+00:00
+MPS client list for experiment server 81761:
+get_server_list '81761\n' ''
+get_client_list 81761 '' ''
+get_client_list 81761 '' ''
+Verified owned daemon 81648 2026-09-29T09:04:58.620000+00:00 and no GPU clients; stopping only this idle MPS instance.
+quit '' ''
+Experiment-owned MPS stopped.
+index, memory.used [MiB], utilization.gpu [%]
+0, 0 MiB, 0 %
+1, 0 MiB, 0 %
+2, 0 MiB, 0 %
+3, 0 MiB, 0 %
+4, 0 MiB, 0 %
+5, 0 MiB, 0 %
+6, 0 MiB, 0 %
+7, 0 MiB, 0 %
+Saved environment and source fingerprints to validation/third_environment_after_cleanup

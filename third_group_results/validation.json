@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "protocol": "host_l2_v1",
+  "server_blocks": 2,
+  "stages_including_warmup": 52,
+  "requests_including_cold_and_warmup": 416,
+  "measured_replay_batches": 20,
+  "measured_batches_per_backend": {
+    "bounded_on_flexkv": 20
+  },
+  "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+  "all_device_hits_zero": true,
+  "host_hits_per_replay_request": 7936,
+  "all_cold_replay_and_cross_backend_output_ids_equal": true,
+  "paged_swa_capacity_not_enlarged": true,
+  "mps_available_before_both_blocks": true
+}

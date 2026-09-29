@@ -1,0 +1,65 @@
+diff --git a/python/sglang/srt/layers/attention/deepseek_v4_backend.py b/python/sglang/srt/layers/attention/deepseek_v4_backend.py
+index fe225fe..61b6e3e 100644
+--- a/python/sglang/srt/layers/attention/deepseek_v4_backend.py
++++ b/python/sglang/srt/layers/attention/deepseek_v4_backend.py
+@@ -242,6 +242,9 @@ def _maybe_precompute_flashmla_sched_meta(
+ 
+     b, s_q = q.shape[0], q.shape[1]
+     num_sm_parts = max(_num_sms(q.device.index) // s_q, 1)
++    shared_memory_bytes = 4 * (b * 5 + 1 + num_sm_parts * META_INTS)
++    if shared_memory_bytes > 48 * 1024:
++        return
+     meta = torch.empty((num_sm_parts, META_INTS), dtype=torch.int32, device=q.device)
+     num_splits = torch.empty((b + 1,), dtype=torch.int32, device=q.device)
+     flashmla_sched_meta(
+diff --git a/test/registered/kernels/ops/attention/test_flashmla_sched_meta.py b/test/registered/kernels/ops/attention/test_flashmla_sched_meta.py
+index 14b3740..3f8d71d 100644
+--- a/test/registered/kernels/ops/attention/test_flashmla_sched_meta.py
++++ b/test/registered/kernels/ops/attention/test_flashmla_sched_meta.py
+@@ -163,5 +163,46 @@ def test_extra_cache_schedule(b: int, topk: int, extra_topk: int):
+     assert torch.equal(lse.view(torch.int32), ref_lse.view(torch.int32))
+ 
+ 
++@pytest.mark.parametrize("query_count", [128, 2048, 4096, 8192])
++def test_precompute_falls_back_above_shared_memory_limit(query_count: int):
++    import sgl_kernel.flash_mla as flash_mla
++
++    from sglang.srt.layers.attention.deepseek_v4_backend import (
++        _maybe_precompute_flashmla_sched_meta,
++    )
++
++    queries = torch.empty(
++        (query_count, 1, H_Q, D_QK), dtype=torch.bfloat16, device="cuda"
++    )
++    indices = torch.zeros((query_count, 1, 128), dtype=torch.int32, device="cuda")
++    lengths = torch.full((query_count,), 128, dtype=torch.int32, device="cuda")
++    schedule = flash_mla.FlashMLASchedMeta()
++    _maybe_precompute_flashmla_sched_meta(
++        schedule,
++        q=queries,
++        indices=indices,
++        topk_length=lengths,
++        extra_indices=None,
++        extra_topk_length=None,
++    )
++    torch.cuda.synchronize()
++    if query_count >= 4096:
++        assert schedule.tile_scheduler_metadata is None
++        assert schedule.num_splits is None
++    else:
++        assert schedule.tile_scheduler_metadata is not None
++        assert schedule.num_splits.shape == (query_count + 1,)
++
++
++@pytest.mark.parametrize("query_count", [4096, 8192])
++def test_native_schedule_handles_large_prefill(query_count: int):
++    lengths = torch.full((query_count,), 128, dtype=torch.int32, device="cuda")
++    output, logsumexp, schedule = _call(_cache(), query_count, 1, 128, lengths)
++    assert output.shape[0] == query_count
++    assert logsumexp.shape[0] == query_count
++    assert schedule.have_initialized
++    assert schedule.config.b == query_count
++
++
+ if __name__ == "__main__":
+     sys.exit(pytest.main([__file__]))

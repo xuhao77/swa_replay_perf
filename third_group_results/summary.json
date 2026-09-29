@@ -1,0 +1,105 @@
+{
+  "protocol": "host_l2_v1",
+  "backend": "bounded_on_flexkv",
+  "dataset_sha256": "2b720466cd08e49f12ec815b63e93b3e405d28bec633f96e17302d40fe55a357",
+  "summary": {
+    "samples": 20,
+    "total_seconds": 35.469832522,
+    "mean_batch_seconds": 1.7734916261,
+    "median_batch_seconds": 1.7737412935,
+    "p95_batch_seconds": 1.78938442535,
+    "min_batch_seconds": 1.754282424,
+    "max_batch_seconds": 1.831112593,
+    "stdev_batch_seconds": 0.017544895443361807,
+    "aggregate_logical_input_tokens_per_second": 36953.0924395268,
+    "aggregate_requests_per_second": 4.510875541934424,
+    "aggregate_output_tokens_per_second": 9.021751083868848,
+    "mean_batch_first_token_seconds": 1.6184282124,
+    "median_batch_first_token_seconds": 1.6175659985,
+    "p95_batch_first_token_seconds": 1.6331627930000001,
+    "aggregate_prefill_logical_input_tokens_per_second": 40493.60947731833,
+    "aggregate_prefill_requests_per_second": 4.94306756314921,
+    "mean_server_first_token_seconds": 1.6150387688249452,
+    "cached_tokens_per_request": [
+      7936
+    ],
+    "replay_tokens_per_batch": [
+      1024.0
+    ],
+    "all_cold_cache_zero": true,
+    "all_cold_replay_output_ids_equal": true,
+    "all_semantically_correct": true
+  },
+  "blocks": [
+    {
+      "source": "third",
+      "name": "01_bounded_on_flexkv",
+      "backend": "bounded_on_flexkv",
+      "started_utc": "2026-09-29T09:14:18.522642+00:00",
+      "completed_utc": "2026-09-29T09:15:37.627650+00:00",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 17.665791449,
+        "mean_batch_seconds": 1.7665791449000001,
+        "median_batch_seconds": 1.7596011185,
+        "p95_batch_seconds": 1.80166749235,
+        "min_batch_seconds": 1.754282424,
+        "max_batch_seconds": 1.831112593,
+        "stdev_batch_seconds": 0.022902379725183785,
+        "aggregate_logical_input_tokens_per_second": 37097.686899111315,
+        "aggregate_requests_per_second": 4.528526232801674,
+        "aggregate_output_tokens_per_second": 9.057052465603348,
+        "mean_batch_first_token_seconds": 1.6126314692,
+        "median_batch_first_token_seconds": 1.6053755994999999,
+        "p95_batch_first_token_seconds": 1.6473734598999998,
+        "aggregate_prefill_logical_input_tokens_per_second": 40639.16725655325,
+        "aggregate_prefill_requests_per_second": 4.960835846747223,
+        "mean_server_first_token_seconds": 1.6092671799749951,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          1024.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    },
+    {
+      "source": "third",
+      "name": "02_bounded_on_flexkv",
+      "backend": "bounded_on_flexkv",
+      "started_utc": "2026-09-29T09:17:41.426568+00:00",
+      "completed_utc": "2026-09-29T09:19:01.155529+00:00",
+      "summary": {
+        "samples": 10,
+        "total_seconds": 17.804041073,
+        "mean_batch_seconds": 1.7804041072999999,
+        "median_batch_seconds": 1.7807886229999998,
+        "p95_batch_seconds": 1.78609528065,
+        "min_batch_seconds": 1.770861976,
+        "max_batch_seconds": 1.787188206,
+        "stdev_batch_seconds": 0.0043757521989026184,
+        "aggregate_logical_input_tokens_per_second": 36809.620766032705,
+        "aggregate_requests_per_second": 4.493361909916102,
+        "aggregate_output_tokens_per_second": 8.986723819832203,
+        "mean_batch_first_token_seconds": 1.6242249556000001,
+        "median_batch_first_token_seconds": 1.6245239900000001,
+        "p95_batch_first_token_seconds": 1.62953564595,
+        "aggregate_prefill_logical_input_tokens_per_second": 40349.09066878026,
+        "aggregate_prefill_requests_per_second": 4.925426107028841,
+        "mean_server_first_token_seconds": 1.6208103576748953,
+        "cached_tokens_per_request": [
+          7936
+        ],
+        "replay_tokens_per_batch": [
+          1024.0
+        ],
+        "all_cold_cache_zero": true,
+        "all_cold_replay_output_ids_equal": true,
+        "all_semantically_correct": true
+      }
+    }
+  ]
+}

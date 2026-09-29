@@ -1,0 +1,3 @@
+[2026-09-29 08:42:05] INFO:     127.0.0.1:58714 - "POST /generate HTTP/1.1" 200 OK
+[2026-09-29 08:42:07 TP0 EP0] Prefill batch, #new-seq: 8, #new-token: 2048, #cached-token: 63488, #cached-device: 0, #cached-host: 63488, #cached-storage: 0, actual-hit-rate: 0.968750, token usage: 0.52, #running-req: 0, #queue-req: 0, #pending-token: 0, #replay-token: 1024, cuda graph: False, input throughput (token/s): 1603.31
+[2026-09-29 08:42:07] INFO:     127.0.0.1:58714 - "GET /metrics HTTP/1.1" 200 OK

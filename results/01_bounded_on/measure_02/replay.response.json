@@ -1,0 +1,346 @@
+[
+  {
+    "text": "A",
+    "output_ids": [
+      35,
+      1
+    ],
+    "meta_info": {
+      "id": "bounded_on-measure_02-replay-0",
+      "finish_reason": {
+        "type": "length",
+        "length": 2
+      },
+      "prompt_tokens": 8192,
+      "weight_version": "default",
+      "num_retractions": 0,
+      "forward_entry_time": 1790668131.607991,
+      "prefill_finished_time": 1790668133.1472194,
+      "queue_time": 0.0018169879913330078,
+      "reasoning_tokens": 0,
+      "completion_tokens": 2,
+      "cached_tokens": 7936,
+      "weight_versions": [
+        {
+          "version": "default",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "cached_tokens_details": {
+        "device": 7936,
+        "host": 0
+      },
+      "dp_rank": null,
+      "e2e_latency": 1.7003393749992028,
+      "request_received_ts": 1790668131.6006901,
+      "first_token_latency": 1.549894564999704,
+      "api_server_dispatch_finish_ts": 1790668131.6020885,
+      "response_sent_to_client_ts": 1790668133.1507447,
+      "request_finished_ts": 1790668133.3010297,
+      "decode_throughput": 6.64695578400698
+    },
+    "index": 0
+  },
+  {
+    "text": "B",
+    "output_ids": [
+      36,
+      1
+    ],
+    "meta_info": {
+      "id": "bounded_on-measure_02-replay-1",
+      "finish_reason": {
+        "type": "length",
+        "length": 2
+      },
+      "prompt_tokens": 8192,
+      "weight_version": "default",
+      "num_retractions": 0,
+      "forward_entry_time": 1790668131.607991,
+      "prefill_finished_time": 1790668133.1476336,
+      "queue_time": 0.0017523765563964844,
+      "reasoning_tokens": 0,
+      "completion_tokens": 2,
+      "cached_tokens": 7936,
+      "weight_versions": [
+        {
+          "version": "default",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "cached_tokens_details": {
+        "device": 7936,
+        "host": 0
+      },
+      "dp_rank": null,
+      "e2e_latency": 1.7004398919998494,
+      "request_received_ts": 1790668131.6006947,
+      "first_token_latency": 1.5499319959999411,
+      "api_server_dispatch_finish_ts": 1790668131.6020885,
+      "response_sent_to_client_ts": 1790668133.1507492,
+      "request_finished_ts": 1790668133.3011346,
+      "decode_throughput": 6.644169685294185
+    },
+    "index": 1
+  },
+  {
+    "text": "C",
+    "output_ids": [
+      37,
+      1
+    ],
+    "meta_info": {
+      "id": "bounded_on-measure_02-replay-2",
+      "finish_reason": {
+        "type": "length",
+        "length": 2
+      },
+      "prompt_tokens": 8192,
+      "weight_version": "default",
+      "num_retractions": 0,
+      "forward_entry_time": 1790668131.607991,
+      "prefill_finished_time": 1790668133.1479032,
+      "queue_time": 0.0017154216766357422,
+      "reasoning_tokens": 0,
+      "completion_tokens": 2,
+      "cached_tokens": 7936,
+      "weight_versions": [
+        {
+          "version": "default",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "cached_tokens_details": {
+        "device": 7936,
+        "host": 0
+      },
+      "dp_rank": null,
+      "e2e_latency": 1.7004771579995577,
+      "request_received_ts": 1790668131.6006982,
+      "first_token_latency": 1.5499414070000057,
+      "api_server_dispatch_finish_ts": 1790668131.6020885,
+      "response_sent_to_client_ts": 1790668133.150752,
+      "request_finished_ts": 1790668133.3011754,
+      "decode_throughput": 6.642940254125921
+    },
+    "index": 2
+  },
+  {
+    "text": "D",
+    "output_ids": [
+      38,
+      1
+    ],
+    "meta_info": {
+      "id": "bounded_on-measure_02-replay-3",
+      "finish_reason": {
+        "type": "length",
+        "length": 2
+      },
+      "prompt_tokens": 8192,
+      "weight_version": "default",
+      "num_retractions": 0,
+      "forward_entry_time": 1790668131.607991,
+      "prefill_finished_time": 1790668133.1481519,
+      "queue_time": 0.0016856193542480469,
+      "reasoning_tokens": 0,
+      "completion_tokens": 2,
+      "cached_tokens": 7936,
+      "weight_versions": [
+        {
+          "version": "default",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "cached_tokens_details": {
+        "device": 7936,
+        "host": 0
+      },
+      "dp_rank": null,
+      "e2e_latency": 1.7005123879998791,
+      "request_received_ts": 1790668131.6007016,
+      "first_token_latency": 1.5499482590003026,
+      "api_server_dispatch_finish_ts": 1790668131.6020885,
+      "response_sent_to_client_ts": 1790668133.150755,
+      "request_finished_ts": 1790668133.301214,
+      "decode_throughput": 6.6416882071745835
+    },
+    "index": 3
+  },
+  {
+    "text": "E",
+    "output_ids": [
+      39,
+      1
+    ],
+    "meta_info": {
+      "id": "bounded_on-measure_02-replay-4",
+      "finish_reason": {
+        "type": "length",
+        "length": 2
+      },
+      "prompt_tokens": 8192,
+      "weight_version": "default",
+      "num_retractions": 0,
+      "forward_entry_time": 1790668131.607991,
+      "prefill_finished_time": 1790668133.148384,
+      "queue_time": 0.0016574859619140625,
+      "reasoning_tokens": 0,
+      "completion_tokens": 2,
+      "cached_tokens": 7936,
+      "weight_versions": [
+        {
+          "version": "default",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "cached_tokens_details": {
+        "device": 7936,
+        "host": 0
+      },
+      "dp_rank": null,
+      "e2e_latency": 1.7005455220005388,
+      "request_received_ts": 1790668131.6007047,
+      "first_token_latency": 1.5499539110005571,
+      "api_server_dispatch_finish_ts": 1790668131.6020885,
+      "response_sent_to_client_ts": 1790668133.1507573,
+      "request_finished_ts": 1790668133.3012502,
+      "decode_throughput": 6.640476141795986
+    },
+    "index": 4
+  },
+  {
+    "text": "F",
+    "output_ids": [
+      40,
+      1
+    ],
+    "meta_info": {
+      "id": "bounded_on-measure_02-replay-5",
+      "finish_reason": {
+        "type": "length",
+        "length": 2
+      },
+      "prompt_tokens": 8192,
+      "weight_version": "default",
+      "num_retractions": 0,
+      "forward_entry_time": 1790668131.607991,
+      "prefill_finished_time": 1790668133.1486077,
+      "queue_time": 0.001630544662475586,
+      "reasoning_tokens": 0,
+      "completion_tokens": 2,
+      "cached_tokens": 7936,
+      "weight_versions": [
+        {
+          "version": "default",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "cached_tokens_details": {
+        "device": 7936,
+        "host": 0
+      },
+      "dp_rank": null,
+      "e2e_latency": 1.700580476000141,
+      "request_received_ts": 1790668131.6007082,
+      "first_token_latency": 1.5499586650003039,
+      "api_server_dispatch_finish_ts": 1790668131.6020885,
+      "response_sent_to_client_ts": 1790668133.1507595,
+      "request_finished_ts": 1790668133.3012886,
+      "decode_throughput": 6.639144711924098
+    },
+    "index": 5
+  },
+  {
+    "text": "G",
+    "output_ids": [
+      41,
+      1
+    ],
+    "meta_info": {
+      "id": "bounded_on-measure_02-replay-6",
+      "finish_reason": {
+        "type": "length",
+        "length": 2
+      },
+      "prompt_tokens": 8192,
+      "weight_version": "default",
+      "num_retractions": 0,
+      "forward_entry_time": 1790668131.607991,
+      "prefill_finished_time": 1790668133.1488278,
+      "queue_time": 0.0016036033630371094,
+      "reasoning_tokens": 0,
+      "completion_tokens": 2,
+      "cached_tokens": 7936,
+      "weight_versions": [
+        {
+          "version": "default",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "cached_tokens_details": {
+        "device": 7936,
+        "host": 0
+      },
+      "dp_rank": null,
+      "e2e_latency": 1.7006123090004621,
+      "request_received_ts": 1790668131.6007113,
+      "first_token_latency": 1.5499641910000719,
+      "api_server_dispatch_finish_ts": 1790668131.6020885,
+      "response_sent_to_client_ts": 1790668133.1507616,
+      "request_finished_ts": 1790668133.3013237,
+      "decode_throughput": 6.637985348063954
+    },
+    "index": 6
+  },
+  {
+    "text": "H",
+    "output_ids": [
+      42,
+      1
+    ],
+    "meta_info": {
+      "id": "bounded_on-measure_02-replay-7",
+      "finish_reason": {
+        "type": "length",
+        "length": 2
+      },
+      "prompt_tokens": 8192,
+      "weight_version": "default",
+      "num_retractions": 0,
+      "forward_entry_time": 1790668131.607991,
+      "prefill_finished_time": 1790668133.149047,
+      "queue_time": 0.0015757083892822266,
+      "reasoning_tokens": 0,
+      "completion_tokens": 2,
+      "cached_tokens": 7936,
+      "weight_versions": [
+        {
+          "version": "default",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "cached_tokens_details": {
+        "device": 7936,
+        "host": 0
+      },
+      "dp_rank": null,
+      "e2e_latency": 1.700643339000635,
+      "request_received_ts": 1790668131.600714,
+      "first_token_latency": 1.549969792000411,
+      "api_server_dispatch_finish_ts": 1790668131.6020885,
+      "response_sent_to_client_ts": 1790668133.1507638,
+      "request_finished_ts": 1790668133.3013575,
+      "decode_throughput": 6.6368650629729515
+    },
+    "index": 7
+  }
+]

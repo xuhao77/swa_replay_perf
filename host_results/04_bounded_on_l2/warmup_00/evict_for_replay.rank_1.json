@@ -1,0 +1,188 @@
+{
+  "action": "evict_for_replay",
+  "tp_rank": 1,
+  "backend": "bounded_on_l2",
+  "device_before": {
+    "full_evictable": 65536,
+    "full_protected": 0,
+    "swa_evictable": 0,
+    "swa_protected": 0,
+    "available_size": 65536
+  },
+  "host_before": {
+    "kv": {
+      "class": "LogicalHostPool",
+      "size": 262144,
+      "available": 196608,
+      "page_size": 256,
+      "buffers": []
+    },
+    "deepseek_v4_c1": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            1,
+            73728
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    },
+    "deepseek_v4_c1_indexer": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            1,
+            17408
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    },
+    "deepseek_v4_c2": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            3,
+            36864
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    },
+    "deepseek_v4_c2_indexer": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            3,
+            8704
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    }
+  },
+  "eviction": {
+    "num_tokens_evicted": 65536,
+    "swa_num_tokens_evicted": 0,
+    "mamba_num_evicted": 0
+  },
+  "device_after": {
+    "full_evictable": 0,
+    "full_protected": 0,
+    "swa_evictable": 0,
+    "swa_protected": 0,
+    "available_size": 131072
+  },
+  "host_after": {
+    "kv": {
+      "class": "LogicalHostPool",
+      "size": 262144,
+      "available": 196608,
+      "page_size": 256,
+      "buffers": []
+    },
+    "deepseek_v4_c1": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            1,
+            73728
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    },
+    "deepseek_v4_c1_indexer": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            1,
+            17408
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    },
+    "deepseek_v4_c2": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            3,
+            36864
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    },
+    "deepseek_v4_c2_indexer": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            3,
+            8704
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    }
+  },
+  "chunked_prefill_size": 8192,
+  "prefill_max_requests": 8
+}

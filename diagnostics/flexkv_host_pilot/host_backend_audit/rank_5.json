@@ -1,0 +1,118 @@
+{
+  "tp_rank": 5,
+  "pid": 56736,
+  "backend": "bounded_off_host",
+  "cache_class": "FlexKVHybridRadixCache",
+  "host_pools": {},
+  "initial_device_state": {
+    "full_evictable": 0,
+    "full_protected": 0,
+    "swa_evictable": 0,
+    "swa_protected": 0,
+    "available_size": 35072,
+    "full_available_size": 131072,
+    "swa_available_size": 35072
+  },
+  "flexkv_layerwise": "0",
+  "flexkv_swa_grid_pages": "31",
+  "flexkv_groups": [
+    {
+      "name": "c1",
+      "compress_ratio": null,
+      "buffer_dtype": "torch.uint8",
+      "buffer_shape": [
+        513,
+        73728
+      ]
+    },
+    {
+      "name": "c2",
+      "compress_ratio": null,
+      "buffer_dtype": "torch.uint8",
+      "buffer_shape": [
+        514,
+        36864
+      ]
+    },
+    {
+      "name": "c1_indexer",
+      "compress_ratio": null,
+      "buffer_dtype": "torch.uint8",
+      "buffer_shape": [
+        513,
+        17408
+      ]
+    },
+    {
+      "name": "c2_indexer",
+      "compress_ratio": null,
+      "buffer_dtype": "torch.uint8",
+      "buffer_shape": [
+        514,
+        8704
+      ]
+    }
+  ],
+  "flexkv_cache_config": {
+    "tokens_per_block": 256,
+    "eviction_policy": "lru",
+    "enable_cpu": true,
+    "enable_ssd": false,
+    "enable_gds": false,
+    "enable_nixl": false,
+    "nixl_extra_config": null,
+    "enable_remote": false,
+    "enable_kv_sharing": false,
+    "enable_p2p_cpu": false,
+    "enable_p2p_ssd": false,
+    "enable_3rd_remote": false,
+    "distributed_node_id": -1,
+    "num_tmp_cpu_blocks": 500,
+    "use_hugepage_cpu_buffer": false,
+    "use_hugepage_tmp_buffer": false,
+    "hugepage_size_bytes": 2097152,
+    "mooncake_max_mr_size_bytes": 549755813888,
+    "mooncake_mr_split_policy": "strict",
+    "num_cpu_blocks": 9425,
+    "num_ssd_blocks": 0,
+    "num_remote_blocks": null,
+    "num_local_blocks": 1000000,
+    "ssd_cache_dir": "./ssd_cache",
+    "remote_cache_size_mode": "file_size",
+    "remote_file_size": null,
+    "remote_file_num": null,
+    "remote_file_prefix": null,
+    "remote_cache_path": null,
+    "remote_config_custom": null,
+    "local_zmq_ip": "127.0.0.1",
+    "local_zmq_port": 5555,
+    "redis_host": "127.0.0.1",
+    "redis_port": 6379,
+    "local_ip": "127.0.0.1",
+    "redis_password": null,
+    "node_ttl_seconds": 30,
+    "mooncake_config_path": null,
+    "use_mooncake_store_backend": false,
+    "mooncake_store_config_path": null,
+    "mooncake_store_pp_rank": 0,
+    "mooncake_store_pp_size": 1,
+    "mooncake_store_node_layer_start": 0,
+    "mooncake_store_node_layer_end": 40,
+    "mooncake_store_total_layers": 40,
+    "_user_cpu_cache_gb": 16,
+    "_user_ssd_cache_gb": 0,
+    "swa": {
+      "enabled": true,
+      "num_slots": 1024,
+      "num_ssd_slots": 0,
+      "num_remote_slots": 0,
+      "num_swa_layers": 40,
+      "bytes_per_token_per_layer": 585,
+      "multi_group": false,
+      "evict_ratio": 0.1,
+      "pin_memory": true
+    },
+    "enable_swa_transfer": true
+  },
+  "flexkv_swa_pool": true
+}

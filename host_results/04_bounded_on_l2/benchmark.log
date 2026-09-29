@@ -1,0 +1,20 @@
+bounded_on_l2 warmup_00: first_token=1.600447s complete=1.758400s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 warmup_01: first_token=1.589301s complete=1.746280s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 warmup_02: first_token=1.583856s complete=1.741371s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_00: first_token=1.588256s complete=1.745917s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_01: first_token=1.585036s complete=1.742664s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_02: first_token=1.582284s complete=1.739468s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_03: first_token=1.581802s complete=1.739008s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_04: first_token=1.584424s complete=1.741547s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_05: first_token=1.584310s complete=1.741711s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_06: first_token=1.571179s complete=1.727339s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_07: first_token=1.572538s complete=1.729053s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_08: first_token=1.574135s complete=1.730173s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_l2 measure_09: first_token=1.572476s complete=1.729162s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+{
+  "measured_pairs": 10,
+  "mean_replay_seconds": 1.7366041464,
+  "mean_batch_first_token_seconds": 1.5796438323,
+  "aggregate_logical_input_tokens_per_second": 37738.01884318708,
+  "aggregate_prefill_logical_input_tokens_per_second": 41487.83330770075
+}

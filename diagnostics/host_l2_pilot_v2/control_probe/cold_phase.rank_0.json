@@ -1,0 +1,23 @@
+{
+  "action": "cold_phase",
+  "tp_rank": 0,
+  "backend": "bounded_on_l2",
+  "device_before": {
+    "full_evictable": 0,
+    "full_protected": 0,
+    "swa_evictable": 0,
+    "swa_protected": 0,
+    "available_size": 131072
+  },
+  "host_before": {},
+  "device_after": {
+    "full_evictable": 0,
+    "full_protected": 0,
+    "swa_evictable": 0,
+    "swa_protected": 0,
+    "available_size": 131072
+  },
+  "host_after": {},
+  "chunked_prefill_size": 7936,
+  "prefill_max_requests": 1
+}

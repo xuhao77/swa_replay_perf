@@ -1,0 +1,237 @@
+{
+  "stage": "cold",
+  "started_utc": "2026-09-29T07:53:40.898170+00:00",
+  "request_ids": [
+    "bounded_off-measure_07-cold-0",
+    "bounded_off-measure_07-cold-1",
+    "bounded_off-measure_07-cold-2",
+    "bounded_off-measure_07-cold-3",
+    "bounded_off-measure_07-cold-4",
+    "bounded_off-measure_07-cold-5",
+    "bounded_off-measure_07-cold-6",
+    "bounded_off-measure_07-cold-7"
+  ],
+  "request_payload_sha256": "87554efd9d24e40561412e668d6f26dd72123a5206017f3ca292a7ef2f2bdfcb",
+  "request_payload_bytes": 294260,
+  "client_batch_latency_seconds": 1.377064629,
+  "client_first_token_seconds": [
+    0.315269184,
+    0.454142418,
+    0.593527575,
+    0.731980714,
+    0.870382331,
+    1.00900998,
+    1.147810277,
+    1.261259016
+  ],
+  "client_batch_first_token_seconds": 1.261259016,
+  "prefill_logical_input_tokens_per_second": 51960.7782133785,
+  "logical_input_tokens_per_second": 47591.08513853201,
+  "requests_per_second": 5.809458635074709,
+  "output_tokens_per_second": 11.618917270149417,
+  "prompt_tokens": [
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192,
+    8192
+  ],
+  "cached_tokens": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "uncached_tokens_total": 65536,
+  "completion_tokens": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "counter_delta": {
+    "prefill_compute": 65536.0,
+    "prefill_cache": 0.0,
+    "decode": 16.0
+  },
+  "replay_tokens_inferred": 0.0,
+  "prefill_log_records": [
+    {
+      "new-seq": 1,
+      "new-token": 8192,
+      "cached-token": 0,
+      "cached-device": 0,
+      "cached-host": 0,
+      "cached-storage": 0,
+      "replay-token": 0
+    },
+    {
+      "new-seq": 1,
+      "new-token": 8192,
+      "cached-token": 0,
+      "cached-device": 0,
+      "cached-host": 0,
+      "cached-storage": 0,
+      "replay-token": 0
+    },
+    {
+      "new-seq": 1,
+      "new-token": 8192,
+      "cached-token": 0,
+      "cached-device": 0,
+      "cached-host": 0,
+      "cached-storage": 0,
+      "replay-token": 0
+    },
+    {
+      "new-seq": 1,
+      "new-token": 8192,
+      "cached-token": 0,
+      "cached-device": 0,
+      "cached-host": 0,
+      "cached-storage": 0,
+      "replay-token": 0
+    },
+    {
+      "new-seq": 1,
+      "new-token": 8192,
+      "cached-token": 0,
+      "cached-device": 0,
+      "cached-host": 0,
+      "cached-storage": 0,
+      "replay-token": 0
+    },
+    {
+      "new-seq": 1,
+      "new-token": 8192,
+      "cached-token": 0,
+      "cached-device": 0,
+      "cached-host": 0,
+      "cached-storage": 0,
+      "replay-token": 0
+    },
+    {
+      "new-seq": 1,
+      "new-token": 8192,
+      "cached-token": 0,
+      "cached-device": 0,
+      "cached-host": 0,
+      "cached-storage": 0,
+      "replay-token": 0
+    },
+    {
+      "new-seq": 1,
+      "new-token": 8192,
+      "cached-token": 0,
+      "cached-device": 0,
+      "cached-host": 0,
+      "cached-storage": 0,
+      "replay-token": 0
+    }
+  ],
+  "output_ids": [
+    [
+      35,
+      1
+    ],
+    [
+      36,
+      1
+    ],
+    [
+      37,
+      1
+    ],
+    [
+      38,
+      1
+    ],
+    [
+      39,
+      1
+    ],
+    [
+      40,
+      1
+    ],
+    [
+      41,
+      1
+    ],
+    [
+      42,
+      1
+    ]
+  ],
+  "output_text": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "expected_answers": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "semantic_correct": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "server_first_token_latency_seconds": [
+    0.3121914149996883,
+    0.45104960999924515,
+    0.5904174560000683,
+    0.7289284769994993,
+    0.8673229109990643,
+    1.0058902500004478,
+    1.1447538640004495,
+    1.2581864889998542
+  ],
+  "server_e2e_latency_seconds": [
+    1.3734294160003628,
+    1.3735087929999281,
+    1.3735514460004197,
+    1.3735819659996196,
+    1.3736126309995598,
+    1.3736423369991826,
+    1.3736716599996726,
+    1.3737005570001202
+  ],
+  "queue_time_seconds": [
+    0.00041222572326660156,
+    0.16492271423339844,
+    0.30622315406799316,
+    0.44501399993896484,
+    0.5844368934631348,
+    0.722813606262207,
+    0.8615748882293701,
+    0.9999861717224121
+  ]
+}

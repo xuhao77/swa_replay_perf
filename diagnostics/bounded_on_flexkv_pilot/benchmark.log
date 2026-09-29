@@ -1,0 +1,10 @@
+bounded_on_flexkv warmup_00: first_token=1.623373s complete=1.777964s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_00: first_token=1.598106s complete=1.751259s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+bounded_on_flexkv measure_01: first_token=1.596128s complete=1.749393s host=[7936, 7936, 7936, 7936, 7936, 7936, 7936, 7936] replay_tokens=1024
+{
+  "measured_pairs": 2,
+  "mean_replay_seconds": 1.750325879,
+  "mean_batch_first_token_seconds": 1.5971174650000002,
+  "aggregate_logical_input_tokens_per_second": 37442.17050452466,
+  "aggregate_prefill_logical_input_tokens_per_second": 41033.926080070756
+}

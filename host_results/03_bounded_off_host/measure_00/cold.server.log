@@ -1,0 +1,200 @@
+[2026-09-29 08:39:11] INFO:     127.0.0.1:51762 - "POST /generate HTTP/1.1" 200 OK
+[2026-09-29 08:39:11 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-0
+[2026-09-29 08:39:11 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-1
+[2026-09-29 08:39:11 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-2
+[2026-09-29 08:39:11 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-0
+[2026-09-29 08:39:11 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-0
+[2026-09-29 08:39:11 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-3
+[2026-09-29 08:39:11 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-0
+[2026-09-29 08:39:11 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-1
+[2026-09-29 08:39:11 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-4
+[2026-09-29 08:39:11 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-0
+[2026-09-29 08:39:11 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-1
+[2026-09-29 08:39:11 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-1
+[2026-09-29 08:39:11 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-2
+[2026-09-29 08:39:11 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-5
+[2026-09-29 08:39:11 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-0
+[2026-09-29 08:39:11 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-2
+[2026-09-29 08:39:11 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-1
+[2026-09-29 08:39:11 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-2
+[2026-09-29 08:39:11 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-3
+[2026-09-29 08:39:11 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-0
+[2026-09-29 08:39:11 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-6
+[2026-09-29 08:39:11 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-3
+[2026-09-29 08:39:11 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-4
+[2026-09-29 08:39:11 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-2
+[2026-09-29 08:39:11 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-3
+[2026-09-29 08:39:11 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-1
+[2026-09-29 08:39:11 TP0 EP0] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-7
+[2026-09-29 08:39:11 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-4
+[2026-09-29 08:39:11 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-1
+[2026-09-29 08:39:11 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-5
+[2026-09-29 08:39:11 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-4
+[2026-09-29 08:39:11 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-3
+[2026-09-29 08:39:11 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-2
+[2026-09-29 08:39:11 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-0
+[2026-09-29 08:39:11 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-5
+[2026-09-29 08:39:11 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-6
+[2026-09-29 08:39:11 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-5
+[2026-09-29 08:39:11 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-2
+[2026-09-29 08:39:11 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-4
+[2026-09-29 08:39:11 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-3
+[2026-09-29 08:39:11 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-6
+[2026-09-29 08:39:11 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-6
+[2026-09-29 08:39:11 TP2 EP2] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-7
+[2026-09-29 08:39:11 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-3
+[2026-09-29 08:39:11 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-5
+[2026-09-29 08:39:11 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-4
+[2026-09-29 08:39:11 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-1
+[2026-09-29 08:39:11 TP4 EP4] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-7
+[2026-09-29 08:39:11 TP6 EP6] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-7
+[2026-09-29 08:39:11 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-4
+[2026-09-29 08:39:11 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-5
+[2026-09-29 08:39:11 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-6
+[2026-09-29 08:39:11 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-2
+[2026-09-29 08:39:11 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-5
+[2026-09-29 08:39:11 TP1 EP1] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-7
+[2026-09-29 08:39:11 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-6
+[2026-09-29 08:39:11 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-3
+[2026-09-29 08:39:11 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-6
+[2026-09-29 08:39:11 TP5 EP5] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-7
+[2026-09-29 08:39:11 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-4
+[2026-09-29 08:39:11 TP3 EP3] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-7
+[2026-09-29 08:39:11 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-5
+[2026-09-29 08:39:11 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-6
+[2026-09-29 08:39:11 TP7 EP7] [FlexKV] sglang startprefetch: request=bounded_off-measure_00-cold-7
+[2026-09-29 08:39:11 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-0" flexkv_task_id=186 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:11.949 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=187, op_id=216, graph_id=230, dp_client_id=0, fragment12_num_blocks=31, fragment2_num_blocks=0, gpu_src: count=31, min=0, max=0, dtype=int64, cpu_dst: count=31, min=768, max=798, dtype=int64
+[2026-09-29 08:39:11 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-0" flexkv_task_id=187 mode=no-layerwise tokens=7936 slots=7936 swa_slots=512
+[2026-09-29 08:39:11 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-1" flexkv_task_id=188 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:11.952 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=31 op_id=144 graph_id=230 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=8.92GB/s
+[FLEXKV] INFO 09-29 08:39:11.953 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=145 graph_id=230 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0008s bandwidth=7.57GB/s
+[2026-09-29 08:39:12 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.06, swa token usage: 0.01, #running-req: 0, #queue-req: 7, #pending-token: 57600, cuda graph: False, input throughput (token/s): 11377.96
+[FLEXKV] INFO 09-29 08:39:12.092 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=187 graph_id=230 task_time=0.1422s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-0" flexkv_task_id=187 mode=no-layerwise store_time=0.1430s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-1" flexkv_task_id=189 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:12.235 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=190, op_id=219, graph_id=235, dp_client_id=0, fragment12_num_blocks=1, fragment2_num_blocks=0, gpu_src: count=1, min=0, max=0, dtype=int64, cpu_dst: count=1, min=799, max=799, dtype=int64
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-0" flexkv_task_id=190 mode=no-layerwise tokens=256 slots=256 swa_slots=256
+[2026-09-29 08:39:12 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.12, swa token usage: 0.23, #running-req: 0, #queue-req: 6, #pending-token: 57344, cuda graph: False, input throughput (token/s): 1762.81
+[FLEXKV] INFO 09-29 08:39:12.237 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=146 graph_id=235 mode=no-layerwise data_size=0.000212193GB transfer_time=0.0006s bandwidth=0.39GB/s
+[FLEXKV] INFO 09-29 08:39:12.238 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=147 graph_id=235 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0006s bandwidth=10.42GB/s
+[FLEXKV] INFO 09-29 08:39:12.240 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=190 graph_id=235 task_time=0.0047s
+[FLEXKV] INFO 09-29 08:39:12.240 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=191, op_id=222, graph_id=236, dp_client_id=0, fragment12_num_blocks=31, fragment2_num_blocks=0, gpu_src: count=31, min=0, max=0, dtype=int64, cpu_dst: count=31, min=800, max=830, dtype=int64
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-1" flexkv_task_id=191 mode=no-layerwise tokens=7936 slots=7936 swa_slots=512
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-2" flexkv_task_id=192 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:12.242 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=31 op_id=148 graph_id=236 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=9.24GB/s
+[FLEXKV] INFO 09-29 08:39:12.243 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=149 graph_id=236 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0007s bandwidth=8.63GB/s
+[2026-09-29 08:39:12 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.12, swa token usage: 0.02, #running-req: 1, #queue-req: 6, #pending-token: 49408, cuda graph: False, input throughput (token/s): 56724.12
+[FLEXKV] INFO 09-29 08:39:12.377 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=191 graph_id=236 task_time=0.1366s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-0" flexkv_task_id=190 mode=no-layerwise store_time=0.1423s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-1" flexkv_task_id=191 mode=no-layerwise store_time=0.1376s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-2" flexkv_task_id=193 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:12.520 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=194, op_id=225, graph_id=241, dp_client_id=0, fragment12_num_blocks=1, fragment2_num_blocks=0, gpu_src: count=1, min=0, max=0, dtype=int64, cpu_dst: count=1, min=831, max=831, dtype=int64
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-1" flexkv_task_id=194 mode=no-layerwise tokens=256 slots=256 swa_slots=256
+[2026-09-29 08:39:12 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.19, swa token usage: 0.24, #running-req: 1, #queue-req: 5, #pending-token: 49152, cuda graph: False, input throughput (token/s): 1765.60
+[FLEXKV] INFO 09-29 08:39:12.522 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=150 graph_id=241 mode=no-layerwise data_size=0.000212193GB transfer_time=0.0008s bandwidth=0.29GB/s
+[FLEXKV] INFO 09-29 08:39:12.523 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=151 graph_id=241 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0008s bandwidth=7.94GB/s
+[FLEXKV] INFO 09-29 08:39:12.524 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=194 graph_id=241 task_time=0.0045s
+[FLEXKV] INFO 09-29 08:39:12.525 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=195, op_id=228, graph_id=242, dp_client_id=0, fragment12_num_blocks=31, fragment2_num_blocks=0, gpu_src: count=31, min=0, max=0, dtype=int64, cpu_dst: count=31, min=832, max=862, dtype=int64
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-2" flexkv_task_id=195 mode=no-layerwise tokens=7936 slots=7936 swa_slots=512
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-3" flexkv_task_id=196 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:12.527 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=31 op_id=152 graph_id=242 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=9.04GB/s
+[FLEXKV] INFO 09-29 08:39:12.528 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=153 graph_id=242 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0005s bandwidth=11.71GB/s
+[2026-09-29 08:39:12 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.19, swa token usage: 0.03, #running-req: 2, #queue-req: 5, #pending-token: 41216, cuda graph: False, input throughput (token/s): 56526.39
+[FLEXKV] INFO 09-29 08:39:12.662 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=195 graph_id=242 task_time=0.1372s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-1" flexkv_task_id=194 mode=no-layerwise store_time=0.1428s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-2" flexkv_task_id=195 mode=no-layerwise store_time=0.1382s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-3" flexkv_task_id=197 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:12.805 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=198, op_id=231, graph_id=247, dp_client_id=0, fragment12_num_blocks=1, fragment2_num_blocks=0, gpu_src: count=1, min=0, max=0, dtype=int64, cpu_dst: count=1, min=863, max=863, dtype=int64
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-2" flexkv_task_id=198 mode=no-layerwise tokens=256 slots=256 swa_slots=256
+[2026-09-29 08:39:12 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.25, swa token usage: 0.25, #running-req: 2, #queue-req: 4, #pending-token: 40960, cuda graph: False, input throughput (token/s): 1770.95
+[FLEXKV] INFO 09-29 08:39:12.807 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=154 graph_id=247 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0007s bandwidth=8.34GB/s
+[FLEXKV] INFO 09-29 08:39:12.808 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=155 graph_id=247 mode=no-layerwise data_size=0.000212193GB transfer_time=0.0008s bandwidth=0.29GB/s
+[FLEXKV] INFO 09-29 08:39:12.810 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=198 graph_id=247 task_time=0.0047s
+[FLEXKV] INFO 09-29 08:39:12.810 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=199, op_id=234, graph_id=248, dp_client_id=0, fragment12_num_blocks=31, fragment2_num_blocks=0, gpu_src: count=31, min=0, max=0, dtype=int64, cpu_dst: count=31, min=864, max=894, dtype=int64
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-3" flexkv_task_id=199 mode=no-layerwise tokens=7936 slots=7936 swa_slots=512
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-4" flexkv_task_id=200 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:12.812 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=31 op_id=156 graph_id=248 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0007s bandwidth=9.56GB/s
+[FLEXKV] INFO 09-29 08:39:12.813 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=157 graph_id=248 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0008s bandwidth=7.71GB/s
+[2026-09-29 08:39:12 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.25, swa token usage: 0.04, #running-req: 3, #queue-req: 4, #pending-token: 33024, cuda graph: False, input throughput (token/s): 57139.74
+[FLEXKV] INFO 09-29 08:39:12.945 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=199 graph_id=248 task_time=0.1355s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-2" flexkv_task_id=198 mode=no-layerwise store_time=0.1413s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-3" flexkv_task_id=199 mode=no-layerwise store_time=0.1365s
+[2026-09-29 08:39:12 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-4" flexkv_task_id=201 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:13.089 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=202, op_id=237, graph_id=253, dp_client_id=0, fragment12_num_blocks=1, fragment2_num_blocks=0, gpu_src: count=1, min=0, max=0, dtype=int64, cpu_dst: count=1, min=895, max=895, dtype=int64
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-3" flexkv_task_id=202 mode=no-layerwise tokens=256 slots=256 swa_slots=256
+[2026-09-29 08:39:13 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.31, swa token usage: 0.26, #running-req: 3, #queue-req: 3, #pending-token: 32768, cuda graph: False, input throughput (token/s): 1766.81
+[FLEXKV] INFO 09-29 08:39:13.091 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=158 graph_id=253 mode=no-layerwise data_size=0.000212193GB transfer_time=0.0008s bandwidth=0.29GB/s
+[FLEXKV] INFO 09-29 08:39:13.092 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=159 graph_id=253 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0005s bandwidth=11.63GB/s
+[FLEXKV] INFO 09-29 08:39:13.093 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=203, op_id=240, graph_id=254, dp_client_id=0, fragment12_num_blocks=31, fragment2_num_blocks=0, gpu_src: count=31, min=0, max=0, dtype=int64, cpu_dst: count=31, min=896, max=926, dtype=int64
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-4" flexkv_task_id=203 mode=no-layerwise tokens=7936 slots=7936 swa_slots=512
+[FLEXKV] INFO 09-29 08:39:13.095 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=202 graph_id=253 task_time=0.0059s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-5" flexkv_task_id=204 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0006s
+[FLEXKV] INFO 09-29 08:39:13.095 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=31 op_id=160 graph_id=254 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0007s bandwidth=10.03GB/s
+[FLEXKV] INFO 09-29 08:39:13.096 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=161 graph_id=254 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0007s bandwidth=8.36GB/s
+[2026-09-29 08:39:13 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.31, swa token usage: 0.04, #running-req: 4, #queue-req: 3, #pending-token: 24832, cuda graph: False, input throughput (token/s): 56824.41
+[FLEXKV] INFO 09-29 08:39:13.230 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=203 graph_id=254 task_time=0.1374s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-3" flexkv_task_id=202 mode=no-layerwise store_time=0.1423s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-4" flexkv_task_id=203 mode=no-layerwise store_time=0.1382s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-5" flexkv_task_id=205 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:13.373 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=206, op_id=243, graph_id=259, dp_client_id=0, fragment12_num_blocks=1, fragment2_num_blocks=0, gpu_src: count=1, min=0, max=0, dtype=int64, cpu_dst: count=1, min=927, max=927, dtype=int64
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-4" flexkv_task_id=206 mode=no-layerwise tokens=256 slots=256 swa_slots=256
+[2026-09-29 08:39:13 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.37, swa token usage: 0.26, #running-req: 4, #queue-req: 2, #pending-token: 24576, cuda graph: False, input throughput (token/s): 1774.40
+[FLEXKV] INFO 09-29 08:39:13.375 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=162 graph_id=259 mode=no-layerwise data_size=0.000212193GB transfer_time=0.0007s bandwidth=0.31GB/s
+[FLEXKV] INFO 09-29 08:39:13.376 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=163 graph_id=259 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0008s bandwidth=7.84GB/s
+[FLEXKV] INFO 09-29 08:39:13.377 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=206 graph_id=259 task_time=0.0046s
+[FLEXKV] INFO 09-29 08:39:13.377 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=207, op_id=246, graph_id=260, dp_client_id=0, fragment12_num_blocks=31, fragment2_num_blocks=0, gpu_src: count=31, min=0, max=0, dtype=int64, cpu_dst: count=31, min=928, max=958, dtype=int64
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-5" flexkv_task_id=207 mode=no-layerwise tokens=7936 slots=7936 swa_slots=512
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-6" flexkv_task_id=208 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:13.380 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=31 op_id=164 graph_id=260 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=9.01GB/s
+[FLEXKV] INFO 09-29 08:39:13.381 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=165 graph_id=260 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0006s bandwidth=10.74GB/s
+[2026-09-29 08:39:13 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.38, swa token usage: 0.05, #running-req: 5, #queue-req: 2, #pending-token: 16640, cuda graph: False, input throughput (token/s): 56516.37
+[FLEXKV] INFO 09-29 08:39:13.515 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=207 graph_id=260 task_time=0.1374s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-4" flexkv_task_id=206 mode=no-layerwise store_time=0.1431s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-5" flexkv_task_id=207 mode=no-layerwise store_time=0.1384s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-6" flexkv_task_id=209 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:13.658 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=210, op_id=249, graph_id=265, dp_client_id=0, fragment12_num_blocks=1, fragment2_num_blocks=0, gpu_src: count=1, min=0, max=0, dtype=int64, cpu_dst: count=1, min=959, max=959, dtype=int64
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-5" flexkv_task_id=210 mode=no-layerwise tokens=256 slots=256 swa_slots=256
+[2026-09-29 08:39:13 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.44, swa token usage: 0.27, #running-req: 5, #queue-req: 1, #pending-token: 16384, cuda graph: False, input throughput (token/s): 1763.67
+[FLEXKV] INFO 09-29 08:39:13.660 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=166 graph_id=265 mode=no-layerwise data_size=0.000212193GB transfer_time=0.0007s bandwidth=0.31GB/s
+[FLEXKV] INFO 09-29 08:39:13.661 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=167 graph_id=265 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0007s bandwidth=8.39GB/s
+[FLEXKV] INFO 09-29 08:39:13.663 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=210 graph_id=265 task_time=0.0050s
+[FLEXKV] INFO 09-29 08:39:13.663 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=211, op_id=252, graph_id=266, dp_client_id=0, fragment12_num_blocks=31, fragment2_num_blocks=0, gpu_src: count=31, min=0, max=0, dtype=int64, cpu_dst: count=31, min=960, max=990, dtype=int64
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-6" flexkv_task_id=211 mode=no-layerwise tokens=7936 slots=7936 swa_slots=512
+[FLEXKV] INFO 09-29 08:39:13.666 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=31 op_id=168 graph_id=266 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=9.06GB/s
+[FLEXKV] INFO 09-29 08:39:13.668 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=169 graph_id=266 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0020s bandwidth=2.99GB/s
+[2026-09-29 08:39:13 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.44, swa token usage: 0.06, #running-req: 6, #queue-req: 1, #pending-token: 8448, cuda graph: False, input throughput (token/s): 56966.95
+[FLEXKV] INFO 09-29 08:39:13.799 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=211 graph_id=266 task_time=0.1358s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-5" flexkv_task_id=210 mode=no-layerwise store_time=0.1419s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-6" flexkv_task_id=211 mode=no-layerwise store_time=0.1369s
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=lookup act=complete status=miss sglang_req_id="bounded_off-measure_00-cold-7" flexkv_task_id=212 tokens=7936 hit_tokens=0 hit_blocks=0 lookup_time=0.0004s
+[FLEXKV] INFO 09-29 08:39:13.943 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=213, op_id=255, graph_id=269, dp_client_id=0, fragment12_num_blocks=1, fragment2_num_blocks=0, gpu_src: count=1, min=0, max=0, dtype=int64, cpu_dst: count=1, min=991, max=991, dtype=int64
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-6" flexkv_task_id=213 mode=no-layerwise tokens=256 slots=256 swa_slots=256
+[2026-09-29 08:39:13 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.50, swa token usage: 0.28, #running-req: 6, #queue-req: 0, #pending-token: 8192, cuda graph: False, input throughput (token/s): 1756.17
+[FLEXKV] INFO 09-29 08:39:13.946 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=170 graph_id=269 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0008s bandwidth=7.76GB/s
+[FLEXKV] INFO 09-29 08:39:13.946 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=171 graph_id=269 mode=no-layerwise data_size=0.000212193GB transfer_time=0.0007s bandwidth=0.33GB/s
+[FLEXKV] INFO 09-29 08:39:13.947 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=214, op_id=258, graph_id=270, dp_client_id=0, fragment12_num_blocks=31, fragment2_num_blocks=0, gpu_src: count=31, min=0, max=0, dtype=int64, cpu_dst: count=31, min=992, max=1022, dtype=int64
+[2026-09-29 08:39:13 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-7" flexkv_task_id=214 mode=no-layerwise tokens=7936 slots=7936 swa_slots=512
+[FLEXKV] INFO 09-29 08:39:13.950 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=31 op_id=172 graph_id=270 mode=no-layerwise data_size=0.00657797GB transfer_time=0.0008s bandwidth=9.03GB/s
+[FLEXKV] INFO 09-29 08:39:13.953 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=173 graph_id=270 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0034s bandwidth=1.78GB/s
+[2026-09-29 08:39:14 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 7936, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.50, swa token usage: 0.07, #running-req: 7, #queue-req: 0, #pending-token: 256, cuda graph: False, input throughput (token/s): 57224.04
+[FLEXKV] INFO 09-29 08:39:14.084 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=213 graph_id=269 task_time=0.1403s
+[FLEXKV] INFO 09-29 08:39:14.084 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=214 graph_id=270 task_time=0.1365s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-6" flexkv_task_id=213 mode=no-layerwise store_time=0.1412s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-7" flexkv_task_id=214 mode=no-layerwise store_time=0.1373s
+[FLEXKV] INFO 09-29 08:39:14.200 [cache_engine.py:2605] [FlexKV-SEGV-DEBUG] cache_engine create D2H op (local_put) request_id=215, op_id=261, graph_id=271, dp_client_id=0, fragment12_num_blocks=1, fragment2_num_blocks=0, gpu_src: count=1, min=0, max=0, dtype=int64, cpu_dst: count=1, min=1023, max=1023, dtype=int64
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=launch status=running direction=D2H sglang_req_id="bounded_off-measure_00-cold-7" flexkv_task_id=215 mode=no-layerwise tokens=256 slots=256 swa_slots=256
+[2026-09-29 08:39:14 TP0 EP0] Prefill batch, #new-seq: 1, #new-token: 256, #cached-token: 0, #cached-device: 0, #cached-host: 0, #cached-storage: 0, actual-hit-rate: 0.000000, full token usage: 0.52, swa token usage: 0.12, #running-req: 7, #queue-req: 0, #pending-token: 0, cuda graph: False, input throughput (token/s): 2167.09
+[FLEXKV] INFO 09-29 08:39:14.202 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=174 graph_id=271 mode=no-layerwise data_size=0.000212193GB transfer_time=0.0007s bandwidth=0.32GB/s
+[FLEXKV] INFO 09-29 08:39:14.203 [runtime.py:577] [FlexKV-IO] operation=transfer act=complete status=success direction=D2H blocks=1 op_id=175 graph_id=271 mode=no-layerwise data_size=0.00557899GB transfer_time=0.0007s bandwidth=8.53GB/s
+[FLEXKV] INFO 09-29 08:39:14.319 [kvtask.py:300] [FlexKV-IO] operation=put act=complete status=success flexkv_task_id=215 graph_id=271 task_time=0.1185s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-measure_00-cold-0" flexkv_task_id=216 reason=already_cached tokens=0 store_time=0.0006s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-measure_00-cold-1" flexkv_task_id=217 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-measure_00-cold-2" flexkv_task_id=218 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-measure_00-cold-3" flexkv_task_id=219 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-measure_00-cold-4" flexkv_task_id=220 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-measure_00-cold-5" flexkv_task_id=221 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-measure_00-cold-6" flexkv_task_id=222 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=skipped direction=D2H sglang_req_id="bounded_off-measure_00-cold-7" flexkv_task_id=223 reason=already_cached tokens=0 store_time=0.0004s
+[2026-09-29 08:39:14 TP0 EP0] [INFO][FlexKV-SGLang] operation=store act=complete status=success direction=D2H sglang_req_id="bounded_off-measure_00-cold-7" flexkv_task_id=215 mode=no-layerwise store_time=0.1365s
+[2026-09-29 08:39:14] INFO:     127.0.0.1:51762 - "GET /metrics HTTP/1.1" 200 OK

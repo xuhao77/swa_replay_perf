@@ -1,0 +1,96 @@
+{
+  "tp_rank": 2,
+  "pid": 62717,
+  "backend": "bounded_on_l2",
+  "cache_class": "UnifiedRadixCache",
+  "host_pools": {
+    "kv": {
+      "class": "LogicalHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": []
+    },
+    "deepseek_v4_c1": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            1,
+            73728
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    },
+    "deepseek_v4_c1_indexer": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            1,
+            17408
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    },
+    "deepseek_v4_c2": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            3,
+            36864
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    },
+    "deepseek_v4_c2_indexer": {
+      "class": "DeepSeekV4PagedHostPool",
+      "size": 262144,
+      "available": 262144,
+      "page_size": 256,
+      "buffers": [
+        {
+          "shape": [
+            1024,
+            3,
+            8704
+          ],
+          "dtype": "torch.uint8",
+          "device": "cpu",
+          "pinned": true
+        }
+      ]
+    }
+  },
+  "initial_device_state": {
+    "full_evictable": 0,
+    "full_protected": 0,
+    "swa_evictable": 0,
+    "swa_protected": 0,
+    "available_size": 131072
+  },
+  "flexkv_layerwise": "0",
+  "flexkv_swa_grid_pages": "31"
+}
