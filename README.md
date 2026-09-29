@@ -2,25 +2,51 @@
 
 ## 三组 host/L2 命中实验
 
-新增第三组已完成：开启 encoder bounded replay，Main KV 与 Indexer K 从 **FlexKV 管理的 host memory** 命中，SWA 采用 FP8 有界重建、不从 host 回迁。固定 8×B200、TP8/EP8、batch=8、8192 输入 token/请求，Main/Indexer FP4、SWA FP8；**未扩大 paged SWA**。
+本实验比较三种从主机内存缓存恢复 KV 的方案：第一组从原生 HiCache L2 回读 Main KV / Indexer K，并通过有界重放重建 SWA；第二组从 FlexKV host 回读 Main KV / Indexer K / SWA；第三组从 FlexKV host 回读 Main KV / Indexer K，但仍通过有界重放重建 SWA。这里的 host/L2 均指主机内存中的缓存。
 
-每组 20 个有效第二遍 batch。计时包含 host lookup、H2D、普通尾部 prefill 和有界重放（若开启）；“输入 token/s”包含命中的逻辑前缀，完整请求输出 2 token。
+三组固定使用 DeepSeek-V4.1-Flash、8×B200、TP8/EP8，Main/Indexer FP4、SWA FP8；**未扩大 paged SWA**。每个 batch 同时发送 8 条请求，每条输入 8192 token、输出 2 token。先完成冷填充、写入 host cache 和 GPU 缓存驱逐，再提交相同输入的第二遍请求；每组只统计 20 个有效第二遍 batch。
 
-| 组别 | Main/Indexer 来源 | SWA 恢复方式 | 首 token 输入 token/s | 完整请求输入 token/s |
+### 吞吐指标说明
+
+下表两列都是**有效输入吞吐**，单位为输入 token/s：用全部计时 batch 的输入 token 总数，除以这些 batch 的耗时之和。两列的分子相同，区别只在于何时停止计时：
+
+- **按首 token 耗时计算**：从提交第二遍 batch 前开始，到 **8 条请求都收到第一个输出 token** 为止，反映等待首个输出这一阶段的输入吞吐。
+- **按请求总耗时计算**：从同一时刻开始，到 **8 条请求全部完成**为止；每条请求都输出 2 token，因此还包含首 token 之后的生成与响应完成时间。
+
+计算公式为 `有效输入吞吐 = 20 × 8 × 8192 / 20 个 batch 对应耗时之和（秒）`，不是逐请求吞吐的简单平均。计时包含 host lookup、主机到 GPU 的传输（H2D）、普通尾部 prefill 和有界重放（若开启），不包含首次冷填充与缓存驱逐。
+
+**注意：这不是输出 token 的生成速度，也不是 GPU 重新计算全部输入的速度。** 分子包含从 host cache 命中的输入前缀；第二列虽然计时到输出完成，分子仍是输入 token 数，而不是输出 token 数。
+
+### 三组结果与对比
+
+| 组别 | Main/Indexer 来源 | SWA 恢复方式 | 有效输入吞吐（按首 token 耗时，token/s） | 有效输入吞吐（按请求总耗时，token/s） |
 |---|---|---|---:|---:|
 | 第一组 | 原生 HiCache L2 | 有界重放 | 41,412.1 | 37,667.9 |
 | 第二组 | FlexKV host | FlexKV host snapshot 回迁 | 191,093.5 | 137,662.0 |
 | 第三组 | FlexKV host | 有界重放 | **40,493.6** | **36,953.1** |
 
-第三组相对第一组，首 token/完整请求吞吐分别低 **2.22% / 1.90%**；第二组分别为第三组的 **4.719× / 3.725×**。第三组是后续追加的两次独立重启采样，不是三组交错随机实验，小幅差异不做显著性断言。
+以下对比分别对应表中的“按首 token 耗时”和“按请求总耗时”两列：
+
+- 第二组的有效输入吞吐分别为第一组的 **4.614× / 3.655×**。
+- 第三组的有效输入吞吐比第一组分别低 **2.22% / 1.90%**。
+- 第二组的有效输入吞吐分别为第三组的 **4.719× / 3.725×**。
+
+第一、二组按 A-B-B-A 顺序重启采样；第三组是后续追加的两次独立重启采样。三组各有 20 个有效 batch，但不是三组交错随机实验，小幅差异不做显著性断言。
 
 全部第二遍请求均验证 **device=0、host=7936 token/请求**。第三组 H2D 的 `swa_slots=0`，每 batch SWA replay=1024，未使用 SWA host pool。三组含首次与热身共 1248 条请求均复核通过，输出 token IDs 和检索答案一致。其余 256 token/请求正常 prefill；不声称 8192/8192 token 全命中。
 
-- 三组报告、数据表和校验：`three_group_results/REPORT.md`、`three_group_results/summary.json`、`three_group_results/trials.csv`、`three_group_results/validation.json`。
-- 第三组原始数据及归档脚本：`third_group_results/`；第一、二组 `host_results/` 的原始测量数据保持不变。
-- 第三组协议/运行入口：`THIRD_EXPERIMENT.md`、`run_third_experiment.sh`；分析入口：`summarize_three_groups.py`。
+### 数据、协议与校验
+
+- 三组报告、数据表和校验：`three_group_results/REPORT.md`、`three_group_results/summary.json`、`three_group_results/trials.csv`、`three_group_results/validation.json`；分析入口为 `summarize_three_groups.py`。
+- 第一、二组原始数据及归档脚本：`host_results/`；两组报告与汇总为 `host_results/REPORT.md`、`host_results/summary.json`、`host_results/trials.csv`。
+- 第一、二组协议/运行入口：`HOST_EXPERIMENT.md`、`run_host_reproduction.sh`。
+- 第三组原始数据及归档脚本：`third_group_results/`；协议/运行入口为 `THIRD_EXPERIMENT.md`、`run_third_experiment.sh`。
 - 第三组预跑单独保存在 `diagnostics/bounded_on_flexkv_pilot/`，不参与正式统计。
 - 独立 SSE 吞吐复算、原始数据 SHA-256、源码及格式校验见 `validation/third_final_checks.log`；本次推理服务和确认无客户端的自建 MPS 已停止，8 卡显存均回到 0 MiB，清理证据见 `validation/third_mps_cleanup.log`。
+
+## 运行环境与复现
+
+先复现第一、二组，再使用该基线运行第三组：
 
 ```bash
 baseline_directory=/root/swa_replay_perf/host-repro-$(date -u +%Y%m%dT%H%M%SZ)
@@ -28,21 +54,6 @@ bash /root/swa_replay_perf/run_host_reproduction.sh "$baseline_directory"
 bash /root/swa_replay_perf/run_third_experiment.sh \
   /root/swa_replay_perf/third-repro-$(date -u +%Y%m%dT%H%M%SZ) \
   "$baseline_directory"
-```
-
-## 第一、二组 host/L2 对照
-
-第一组的 Main/Indexer 从 **HiCache L2** 命中；第二组的 Main/Indexer/SWA 从 **FlexKV host memory** 命中。协议与复现入口见 `HOST_EXPERIMENT.md`、`run_host_reproduction.sh`；这两组正式结果在 `host_results/REPORT.md`、`host_results/summary.json` 和 `host_results/trials.csv`。
-
-每组 20 个正式 batch，均验证 `device=0, host=7936 token/请求`。第一组/第二组首 token 阶段有效输入吞吐为 **41,412.1 / 191,093.5 token/s**；完整 2-token 请求为 **37,667.9 / 137,662.0 token/s**。第二组分别为第一组的 **4.614× / 3.655×**，计时包含 host lookup 和 H2D。
-
-## 运行环境与复现
-
-先复现第一、二组，再使用该基线运行第三组：
-
-```bash
-bash /root/swa_replay_perf/run_host_reproduction.sh \
-  /root/swa_replay_perf/host-repro-$(date -u +%Y%m%dT%H%M%SZ)
 ```
 
 第三组入口及参数见 `THIRD_EXPERIMENT.md`。默认复用 `/root/nvfp4-validation/venv`、`/root/sglang`、`/root/FlexKV` 和 `/root/models/DeepSeek-V4.1-Flash`；可通过 `PYTHON_BINARY`、`SGLANG_DIRECTORY`、`MODEL_DIRECTORY`、`SERVER_PORT` 指定运行环境。该 venv 的 native FlashMLA 包包含本地 V4.1 FP4 layout 支持；实际环境与源码/native 指纹保存在 `host_results/environment/` 和 `third_group_results/environment/`，不能假定任意发布 wheel 都能复现。
