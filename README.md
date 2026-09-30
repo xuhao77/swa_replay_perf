@@ -18,7 +18,7 @@
 
 ### 三组结果与对比
 
-| 组别 | Main/Indexer 来源 | SWA 恢复方式 | 有效输入吞吐（按首 token 耗时，token/s） |
+| 组别 | Main/Indexer 来源 | SWA 恢复方式 | 有效输入吞吐（token/s） |
 |---|---|---|---:|
 | 第一组 | 原生 HiCache L2 | 有界重放 | 41,412.1 |
 | 第二组 | FlexKV host | FlexKV host snapshot 回迁 | 191,093.5 |
